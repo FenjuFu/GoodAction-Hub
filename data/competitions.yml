@@ -1,0 +1,431 @@
+- title: 第三届星瀚杯"走进企业的法律课"公益大赛
+  description: 华东政法大学与上海星瀚律师事务所共同发起的公益赛事，通过组织和辅导法学生策划并实践一堂面向企业的公益法律课，培养法学生将学校习得的专业知识应用于企业经营的实务领域，锻炼大学生的专业能力、商业思维、策划能力、表达能力，同时面向商事企业进行普法宣传，增强企业的合规意识与风险管控能力。本届新增法律AI Agent搭建赛道，激励法学生与技术专长学生协作打造法律智能体。
+  category: competition
+  tags:
+    - 法律公益
+    - 教育
+    - 人工智能
+    - 普法宣传
+    - 企业合规
+  events:
+    - year: 2025
+      id: xinhan-cup-legal-2025
+      link: https://mp.weixin.qq.com/s/PrnduavLQzUlv4tRwDdFGw
+      timeline:
+        - deadline: '2025-10-29T23:59:59'
+          comment: '初赛策划教案提交截止'
+        - deadline: '2025-11-14T23:59:59'
+          comment: '复赛试讲视频提交截止'
+        - deadline: '2025-11-28T18:00:00'
+          comment: '决赛现场答辩'
+      timezone: Asia/Shanghai
+      date: 2025 年 9 月 26 日 - 11 月 28 日
+      place: 线上初复赛 + 华东政法大学决赛
+
+- title: 2025苏州"金桂奖"公益广告作品大赛
+  description: 由苏州工业园区广告协会主办的公益广告创意大赛，旨在发掘广告创意领域的新生力量，搭建行业交流展示的优质平台。大赛设置平面类作品、视频类作品和首次设立的AI平面类作品三个项目，用创意为公益赋能。获奖作品将有机会登上苏州的户外大屏、地铁公交、媒体平台，成为城市文明建设的独特印记。
+  category: competition
+  tags:
+    - 公益广告
+    - 创意设计
+    - 广告创意
+    - 苏州
+    - AI创作
+    - 城市文明
+  events:
+    - year: 2025
+      id: suzhou-jingui-award-2025
+      link: https://mp.weixin.qq.com/s/vDbHmeR-0lncUBVDES-kwQ
+      timeline:
+        - deadline: '2025-11-15T23:59:59'
+          comment: '作品提交截止'
+      timezone: Asia/Shanghai
+      date: 2025 年金秋 - 11 月 15 日
+      place: 苏州工业园区
+
+- title: 2025年第五届"应急科普华夏行"学生急救技能科普竞赛
+  description: 由中国灾害防御协会科普教育培训分会主办的全国性学生急救技能科普竞赛，旨在提升公众应对突发事件的能力，增强风险防范意识。参赛对象为全国在校学生，通过在线答题形式进行，答题合格者可获得电子版荣誉证书。
+  category: competition
+  tags:
+    - 公益
+    - 科普
+    - 急救
+    - 应急
+    - 学生
+    - 安全教育
+  events:
+    - year: 2025
+      id: emergency-science-huaxia-2025
+      link: https://mp.weixin.qq.com/s/MWGBBxAzGXLpeX84BW_y5A
+      timeline:
+        - deadline: '2025-12-25T23:59:59'
+          comment: '参赛截止时间'
+        - deadline: '2025-12-27T23:59:59'
+          comment: '成绩公示'
+      timezone: Asia/Shanghai
+      date: 即日起 - 2025年12月25日
+      place: 全国（在线答题）
+
+- title: 2025全国精英跑团公益邀请赛
+  description: 汇聚全国各地精英跑团，通过马拉松和长跑赛事传播公益理念，推广全民健身运动，同时为慈善事业筹集资金的大型公益体育赛事。赛事旨在促进跑步运动发展，增强全民健身意识，传递正能量，展现体育精神与公益精神的完美结合。
+  category: competition
+  tags:
+    - 公益
+    - 跑步
+    - 马拉松
+    - 精英跑团
+    - 体育
+    - 全民健身
+    - 慈善
+  events:
+    - year: 2025
+      id: elite-running-charity-2025
+      link: https://mp.weixin.qq.com/s/rO12-jNdm13MJa5XTNLUxw
+      timeline:
+        - deadline: '2025-09-30T23:59:59'
+          comment: '报名截止时间'
+        - deadline: '2025-10-15T08:00:00'
+          comment: '比赛开始时间'
+        - deadline: '2025-10-15T18:00:00'
+          comment: '颁奖仪式'
+      timezone: Asia/Shanghai
+      date: 2025 年 8 月 1 日 - 10 月 15 日
+      place: 全国各地（多城市联动）
+
+- title: 2025中国公益慈善项目大赛
+  description: 由中国慈善联合会主办的全国性公益慈善项目竞赛，旨在发现和培育优秀的公益慈善项目，推动公益事业发展。
+  category: competition
+  tags:
+    - 公益慈善
+    - 项目大赛
+    - 社会责任
+  events:
+    - year: 2025
+      id: china-charity-project-2025
+      link: https://www.charity.org.cn/contest
+      timeline:
+        - deadline: '2025-08-01T23:59:59'
+          comment: '申报阶段开始'
+        - deadline: '2025-09-30T23:59:59'
+          comment: '申报截止'
+        - deadline: '2025-11-30T18:00:00'
+          comment: '晋级赛评审结束'
+        - deadline: '2025-12-31T16:00:00'
+          comment: '决赛路演'
+      timezone: Asia/Shanghai
+      date: 2025 年 8 月 1 日 - 12 月 31 日
+      place: 线上 + 北京决赛
+
+- title: 2025横琴人寿横琴马拉松公益报名
+  description: 为爱奔跑！横琴马拉松携手横琴粤澳深度合作区慈善促进会，通过赛事公益名额筹集善款，支持公益项目。公益跑者享有专属号码布、专享领物通道、公益纪念证书等福利，传递正能量、凝聚爱心。
+  category: competition
+  tags:
+    - 马拉松
+    - 公益跑步
+    - 慈善捐赠
+    - 体育公益
+    - 横琴
+  events:
+    - year: 2025
+      id: hengqin-marathon-charity-2025
+      link: https://mp.weixin.qq.com/s/Sco0RS3zbKBNOCPAVfbsTQ
+      timeline:
+        - deadline: '2025-10-28T23:59:00'
+          comment: '公益报名截止（额满即止）'
+        - deadline: '2025-12-28T07:30:00'
+          comment: '马拉松比赛开始'
+      timezone: Asia/Shanghai
+      date: 2025 年 12 月 28 日（星期日）
+      place: 广东省横琴粤澳深度合作区横琴金融岛中央公园
+
+- title: 2025年与人杯青年公益创意大赛
+  description: 由广东省与人公益基金会、共青团惠州学院委员会、惠州市慈航公益协会主办的大学生公益赛事，以'启蒙公益创意，引领青年公益实践参与，提升社会责任感'为宗旨，鼓励在校大学生关注身边社会问题，结合自身专业优势，用青年态度青年方式回应社会问题，产出公益创意并加以实践。2025年以"青年新主张"为概念，以项目落地实践为载体，推动青年围绕校园、社区、家庭、职场等场景发现社会需求、设计创新方案并实践。
+  category: competition
+  tags:
+    - 公益创意
+    - 青年实践
+    - 社会责任
+    - 团队协作
+    - 项目孵化
+  events:
+    - year: 2025
+      id: renren-cup-2025
+      link: https://mp.weixin.qq.com/s/jyoGeno6EwQAUv0MI7acRA
+      timeline:
+        - deadline: '2025-09-23T23:59:59'
+          comment: '报名表提交截止'
+        - deadline: '2025-09-24T00:00:00'
+          comment: '初赛评审开始'
+        - deadline: '2025-09-27T00:00:00'
+          comment: '公布入围复赛名单及复赛群二维码'
+        - deadline: '2025-10-15T23:59:59'
+          comment: '《公益项目书》提交截止'
+        - deadline: '2025-10-17T00:00:00'
+          comment: '线上复赛举行'
+        - deadline: '2025-10-25T00:00:00'
+          comment: '试运营阶段启动'
+        - deadline: '2025-11-14T18:00:00'
+          comment: '决赛暨路演答辩（现场公布获奖名单）'
+        - deadline: '2025-11-20T23:59:59'
+          comment: '提交结项资料'
+      timezone: Asia/Shanghai
+      date: 2025年9月9日 - 11月14日
+      place: 惠州学院及社区试运营场地
+
+- title: ITGD·创跑2025梦想10km公益跑（千山区对桩石站）
+  description: 该赛事为公益性质的10公里跑步活动，旨在倡导健康生活方式与公益理念结合。参赛者需满足年龄限制（3岁以上至70周岁以下），未成年人需监护人签署同意书；组委会强调参赛者的身体健康评估，建议赛前进行专业体检以排除潜在风险。报名时间从2025年9月22日12:00开始至10月10日18:00截止，提供线上报名渠道及公益直通名额（限1000个）。
+  category: competition
+  tags:
+    - 公益跑
+    - 健康运动
+    - 乡村振兴
+  events:
+    - year: 2025
+      id: itgd-dreamrun-2025
+      link: https://mp.weixin.qq.com/s/VYdtMhDZ_dgsREx4L5NS2Q
+      timeline:
+        - deadline: '2025-09-22T12:00:00'
+          comment: '报名开始'
+        - deadline: '2025-10-10T18:00:00'
+          comment: '报名结束'
+        - deadline: '2025-10-19T09:00:00'
+          comment: '比赛开始'
+      timezone: Asia/Shanghai
+      date: 2025年10月19日
+      place: 千山区对桩石站
+- title: 创建助力'百千万'——广东省精神文明建设公益广告设计大赛
+  description: 由广东省精神文明建设办公室、南方报业传媒集团联合主办的公益广告设计大赛，旨在通过创意设计传播文明理念，赋能"百县千镇万村高质量发展工程"，引导广大群众讲文明、树新风。大赛紧扣"助力'百千万工程'""活力十五运会""建设绿美广东""传承岭南文化""弘扬文明乡风"等五大主题方向，面向全社会征集遴选具有时代性、地域性、创新性的精神文明建设公益广告作品。
+  category: competition
+  tags:
+    - 公益广告
+    - 精神文明
+    - 创意设计
+    - 百千万工程
+    - 岭南文化
+  events:
+    - year: 2025
+      id: guangdong-civilization-ad-2025
+      link: https://mp.weixin.qq.com/s/Ue0--XIVud_l0_J5NUkUkg
+      timeline:
+        - deadline: '2025-09-29T00:00:00'
+          comment: '大赛启动'
+        - deadline: '2025-11-30T23:59:59'
+          comment: '作品征集截止'
+        - deadline: '2025-12-31T23:59:59'
+          comment: '推荐公示和宣传推广'
+      timezone: Asia/Shanghai
+      date: 2025年9月29日 - 12月31日
+      place: 广东省（线上征集）
+
+- title: "淄博齐惠保"
+  description: 由淄博齐惠保项目组主办的公益马拉松活动，旨在为淄博市困难群众募集"齐惠保"保障资金，守护他们家庭的健康和希望。参与者捐1元即可报名参赛，通过每日走满3600步完成马拉松挑战，获得腾讯公益证书和公益马拉松电子徽章，还能抽奖赢取"淄博齐惠保"文创徽章。每有一位参与者完成挑战，项目组将配捐1元公益金。
+  category: competition
+  tags:
+    - 公益马拉松
+    - 健康运动
+    - 慈善募捐
+    - 社会保障
+    - 步数挑战
+  events:
+    - year: 2025
+      id: zibo-qihuibao-marathon-2025
+      link: https://mp.weixin.qq.com/s/9zuIj7DNqax18pbeFrI_qw
+      timeline:
+        - deadline: '2025-09-22T00:00:00'
+          comment: '活动开始'
+        - deadline: '2025-10-05T23:59:59'
+          comment: '活动结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月22日 - 10月5日
+      place: 线上（微信运动）
+
+- title: 中西公益骑行赛
+  description: 中西公益骑行比赛是一项别具意义的体育盛事，旨在纪念中西建交50周年，通过体育庆祝两国友谊、经济合作和文化交流。活动包含100公里长途挑战赛和家庭赛两个项目，适合不同水平的参与者。
+  category: competition
+  tags:
+    - 公益
+    - 骑行
+    - 体育
+    - 中西文化交流
+  events:
+    - year: 2025
+      id: china-spain-charity-cycling-2025
+      link: https://mp.weixin.qq.com/s/kfdnDGRb3ljTHyws-IoznQ
+      timeline:
+        - deadline: '2025-10-16T23:59:59'
+          comment: '报名截止'
+        - deadline: '2025-10-18T09:00:00'
+          comment: '活动开始'
+        - deadline: '2025-10-18T16:00:00'
+          comment: '活动结束'
+      timezone: Europe/Madrid
+      date: 2025年10月18日
+      place: 马德里，西班牙
+
+- title: 跑遍中国·运动健康公益5人团体赛
+  description: 跑遍中国·运动健康公益5人团体赛是一项全民健身线上跑步活动，采用5人组队形式，随时随地开跑。活动旨在推广科学跑步理念，养成运动好习惯，提供多种套餐选择和丰厚奖品。
+  category: competition
+  tags:
+    - 公益
+    - 跑步
+    - 健身
+    - 团体赛
+    - 线上活动
+  events:
+    - year: 2025
+      id: run-china-health-team-2025
+      link: https://mp.weixin.qq.com/s/4zQkVYxfe0nevQ5MHVS1zw
+      timeline:
+        - deadline: '2025-09-08T10:00:00'
+          comment: '报名开始'
+        - deadline: '2025-10-06T23:59:59'
+          comment: '报名截止'
+        - deadline: '2025-10-07T23:59:59'
+          comment: '比赛结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月8日-10月7日
+      place: 线上（全国范围）
+
+- title: 第19届设计之都（中国•深圳）公益广告大赛
+  description: 2025年9月启动的作品征集活动，设置专业组/大众组/校园组三大参赛类别，涵盖平面、视频、音频、互动四大创作形式。题材包括弘扬社会主义核心价值观、展现深圳经济特区发展成就、激发创新活力、守护生态文明、畅想乡村振兴、维护国家安全、传承优秀文化、促进法治文明、运动美好生活等十大主题方向。要求作品须为原创且通俗易懂，接受网上提交（官网/邮箱渠道），截稿日期为2025年10月10日。
+  category: competition
+  tags:
+    - 公益数字化
+    - 公益广告
+    - 创意设计
+  events:
+    - year: 2025
+      id: sz-publicity-ad-contest-2025
+      link: https://mp.weixin.qq.com/s/qhxmicvMgmPDMnUvPnm8Hw
+      timeline:
+        - deadline: '2025-10-10T23:59:59'
+          comment: '作品提交截止'
+      timezone: Asia/Shanghai
+      date: 2025年9月至10月10日
+      place: 线上投稿（官网/邮箱）+线下展示
+
+- title: "山河回响·青春献礼"
+  description: 广州铁路职业技术学院"悦已"花艺社开展的主题摄影比赛，以花为主题，以摄影为载体，通过镜头下的故事，引导广大师生寻红色记忆、悟家国情怀，将活动成果化作公益力量，传承红色基因，展师生担当。活动围绕"花一般的美丽"、"追寻红色足迹"、"致敬最可爱的人"三个摄影模块展开。
+  category: competition
+  tags:
+    - 公益摄影
+    - 红色文化
+    - 青春献礼
+    - 校园活动
+    - 文化传承
+  events:
+    - year: 2025
+      id: shanhe-huixiang-photography-2025
+      link: https://mp.weixin.qq.com/s/F9Mq5Lnogm6uUhnVPtRAHg
+      timeline:
+        - deadline: '2025-09-24T00:00:00'
+          comment: '活动开始'
+        - deadline: '2025-10-18T23:59:59'
+          comment: '作品创作与征集截止'
+        - deadline: '2025-10-21T23:59:59'
+          comment: '作品评选结束'
+        - deadline: '2025-10-22T00:00:00'
+          comment: '公益转化与展示期开始'
+      timezone: Asia/Shanghai
+      date: 2025年9月24日 - 10月22日
+      place: 广州铁路职业技术学院
+
+- title: 2025年中山市精神文明公益广告设计大赛
+  description: 以"文明中山汇创意 公益光影倡新风"为主题的公益广告设计大赛，不设组别门槛，面向文化、广告、影视制作公司、媒体单位、院校及热心公益的社会大众。涵盖中山现代化建设、社会主义核心价值观、中华优秀传统文化等9大主题，支持平面作品和视频作品两种创作形式。
+  category: competition
+  tags:
+    - 公益广告
+    - 创意设计
+    - 精神文明
+    - 文化传承
+    - 城市形象
+  events:
+    - year: 2025
+      id: zhongshan-civilization-ad-2025
+      link: https://mp.weixin.qq.com/s/qsI8jc1e3d91f3w5CQRW1g
+      timeline:
+        - deadline: '2025-10-25T23:59:59'
+          comment: '作品征集截止'
+      timezone: Asia/Shanghai
+      date: 2025年征稿至10月25日
+      place: 中山市（线上提交）
+
+- title: 2025上海小昆山乡村马拉松赛
+  description: 在上海市松江区小昆山镇万亩良田举办的半程马拉松赛事，携手松江区小昆山镇红十字会共同传递温暖与力量。设置300个公益名额，每份报名都将化为一份爱心捐赠，为困境中的人们点亮前路。参赛选手年满16周岁，比赛项目为半程马拉松（21.0975公里），规模2000人。
+  category: competition
+  tags:
+    - 马拉松
+    - 公益跑步
+    - 乡村马拉松
+    - 慈善募捐
+    - 体育赛事
+  events:
+    - year: 2025
+      id: xiaokunshan-marathon-2025
+      link: https://mp.weixin.qq.com/s/XCRtVH2ob9rphNmPf3uoKw
+      timeline:
+        - deadline: '2025-09-16T18:00:00'
+          comment: '公益报名开始'
+        - deadline: '2025-09-23T18:00:00'
+          comment: '公益报名截止'
+        - deadline: '2025-09-30T23:59:59'
+          comment: '公益名单公布'
+        - deadline: '2025-10-19T07:30:00'
+          comment: '比赛开始'
+      timezone: Asia/Shanghai
+      date: 2025年10月19日 7:30
+      place: 上海市松江区小昆山镇万亩良田
+
+- title: 第九届佛山市公益青少年钢琴公开赛
+  description: 佛山市钢琴学会与佛山市青少年文化宫共同主办的公益性钢琴比赛，秉承"以比赛为媒介，以舞台为目标"的理念，设有幼儿组、儿童组、少年组、青年组、协奏曲组、联弹组等多个组别，为钢琴教师提供展示教学成果的平台，让琴童拥有充分展示才华的大舞台。
+  category: competition
+  tags:
+    - 公益比赛
+    - 钢琴比赛
+    - 青少年艺术
+    - 音乐教育
+    - 文化艺术
+  events:
+    - year: 2025
+      id: foshan-piano-contest-2025
+      link: https://mp.weixin.qq.com/s/wwszD-MizrN0k0iSoKcO_A
+      timeline:
+        - deadline: '2025-09-12T00:00:00'
+          comment: '报名开始'
+        - deadline: '2025-11-03T23:59:59'
+          comment: '报名截止'
+        - deadline: '2025-11-15T00:00:00'
+          comment: '初赛开始'
+        - deadline: '2025-11-30T23:59:59'
+          comment: '初赛结束'
+        - deadline: '2025-12-05T00:00:00'
+          comment: '决赛开始'
+        - deadline: '2025-12-20T23:59:59'
+          comment: '决赛结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月12日 - 12月20日
+      place: 佛山市青少年文化宫
+
+- title: 兰马公益｜为爱奔跑，与善同行
+  description: 兰州马拉松的公益实践活动，包含多个公益项目："梦想1公里"助残公益跑（2016-2019年累计助力超4000名残障人士完成近20公里赛程，筹集善款105650元）、"守护星星的孩子"关爱孤独症儿童活动（2023-2025年累计捐赠105000元用于特殊需求孩子康训补助）、"兰马公益林"生态项目（累计投入220000元用于种植固沙植物、防治荒漠化和建设公益小游园）。通过"公益+马拉松"的创新模式，将善意和信念根植于每位参与者心中。
+  category: competition
+  tags:
+    - 马拉松公益
+    - 助残公益
+    - 关爱孤独症
+    - 生态环保
+    - 公益跑步
+  events:
+    - year: 2025
+      id: lanzhou-marathon-charity-2025
+      link: https://mp.weixin.qq.com/s/ODbe2pCrZgoAr70tral34Q
+      timeline:
+        - deadline: '2025-06-01T00:00:00'
+          comment: '兰马公益活动启动'
+        - deadline: '2025-06-15T00:00:00'
+          comment: '兰州国际马拉松赛事举办'
+        - deadline: '2025-12-31T23:59:59'
+          comment: '年度公益项目总结'
+      timezone: Asia/Shanghai
+      date: 2025年6月1日 - 12月31日
+      place: 兰州市及甘肃省各地

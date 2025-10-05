@@ -1,0 +1,2 @@
+export COREPACK_ENABLE_AUTO_PIN=0
+bun run lint

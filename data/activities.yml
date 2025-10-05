@@ -1,0 +1,593 @@
+- title: "偕来莫愁"
+  description: 由江苏省妇女儿童福利基金会与南京莫愁湖公园管理处联合主办的传统文化与心理健康融合活动。以"莫愁女孩+康康"双IP联动为特色，通过汉服巡游、心理团辅、个案咨询、古琴演出、戏曲表演、篆刻艺术展等形式，为妇女儿童及家庭提供心理健康守护服务，传承和弘扬传统文化。
+  category: activity
+  organizer: 江苏省妇女儿童福利基金会、南京莫愁湖公园管理处
+  theme: 传统与现代、文化与心灵深度融合
+  features:
+    - 双IP联动（莫愁女孩+康康）
+    - 古今交融体验
+    - 心理健康守护
+    - 艺术展演
+  main_activities:
+    - 汉服巡游
+    - 心理团辅
+    - 个案咨询
+    - 古琴演出
+    - 戏曲表演
+    - 篆刻艺术展
+  services:
+    - 心理团辅活动：10月1日、3日、5日、7日
+    - 个案咨询服务：10月2日、4日、6日、8日
+  target_audience: 妇女儿童及家庭、传统文化爱好者
+  consultation_hotline: 025-86511835
+  tags:
+    - 妇女儿童
+    - 心理健康
+    - 传统文化
+    - 莫愁湖
+    - 汉服
+    - 心理咨询
+    - 文化展演
+  events:
+    - year: 2025
+      id: mochou-cultural-exhibition-2025
+      link: https://mp.weixin.qq.com/s/Azua6TjiRFhfMvVSoZclCw
+      timeline:
+        - deadline: '2025-09-27T00:00:00'
+          comment: '活动开幕式'
+        - deadline: '2025-10-08T23:59:59'
+          comment: '活动结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月27日-10月8日
+      place: 南京莫愁湖公园
+
+- title: 上海公益行招募｜心聚申城，与爱同行
+  description: 由复旦大学烛心社组织的上海公益行招募活动，旨在汇聚爱心力量，传递温暖与希望，让更多人参与到公益事业中来，共同建设美好上海。
+  category: activity
+  organizer: 复旦大学烛心社
+  editor: 融媒体部 李怡璇
+  tags:
+    - 公益招募
+    - 志愿服务
+    - 上海
+    - 大学生公益
+  events:
+    - year: 2025
+      id: shanghai-charity-recruitment-2025
+      link: https://mp.weixin.qq.com/s/UfnSnZpJ7B8tk5qcVVZSUA
+      timeline:
+        - deadline: '2025-10-04T13:58:00'
+          comment: '活动招募发布'
+        - deadline: '2025-12-31T23:59:59'
+          comment: '年度公益行动结束'
+      timezone: Asia/Shanghai
+      date: 2025年10月起
+      place: 上海市
+
+- title: 志愿者招募 | 在线等一批爱心人士~
+  description: 深圳市恒晖公益基金会志愿者招募活动，招募平面设计师、文案编辑师、视频剪辑师等志愿者。恒晖以"通过创新的公益实践，探索针对脆弱群体的社会支持系统"为使命，开展大病救助、青少年心理健康和教育关怀、乡村医生培训等公益创新项目。
+  category: activity
+  organizer: 深圳市恒晖公益基金会
+  founder: 陈行甲
+  positions:
+    - 平面设计师：多元视觉制作、基础图片修图、视觉调研提案
+    - 文案编辑师：文案创意撰写、推文策划撰写、推文排版校对
+    - 视频剪辑师：视频素材剪辑加工、多版本内容输出
+  tags:
+    - 志愿者招募
+    - 公益基金会
+    - 平面设计
+    - 文案编辑
+    - 视频剪辑
+    - 线上志愿服务
+  events:
+    - year: 2025
+      id: henghui-volunteer-2025
+      link: https://mp.weixin.qq.com/s/VEopBwLNWDYmooiE9d_Glw
+      timeline:
+        - deadline: '2025-12-31T23:59:59'
+          comment: '长期招募志愿者'
+      timezone: Asia/Shanghai
+      date: 长期招募
+      place: 线上
+
+- title: 乡村孤老照护
+  description: 山东省乐安慈孝公益基金会发起的专业照护项目，为乡村60岁以上孤困老人提供生活照护、精神慰藉、医疗帮扶等综合服务。基金会成立于2010年，是5A级社会组织，累计捐赠超5亿元，已帮扶3000余名乡村孤困老人，提供照护服务超14万人次。
+  category: activity
+  tags:
+    - 养老服务
+    - 乡村公益
+    - 孤老照护
+    - 慈善基金会
+  events:
+    - year: 2025
+      id: rural-elderly-care-2025
+      link: https://mp.weixin.qq.com/s/lkGvsIh4W-jkYy_mCmCM2Q
+      timeline:
+        - deadline: '2025-03-01T09:00:00'
+          comment: '春季照护服务启动'
+        - deadline: '2025-12-31T18:00:00'
+          comment: '年度服务总结'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 山东省乡村地区
+
+- title: 协作者志愿者招募计划
+  description: 协作者22年来已与2万+志愿者共同服务163万人次，致力于实现"每个人都可以怀抱着尊严和梦想，自由地行走在大地"的美好愿景。招募陪伴照顾、儿童发展、专业支持、行政支持、教育传播等多类志愿者。
+  organizer: 协作者
+  mission: 每个弱者都有力量，每个生命都有尊严
+  service_types:
+    - 陪伴照顾类：家庭走访、儿童陪伴、社区老人照护
+    - 儿童发展类：课后托管、兴趣小组、城市导览、阅读推广
+    - 专业支持类：法律顾问、心理咨询、医疗护理、理发服务
+    - 行政支持类：物资管理、运输协助、服务支持、公益筹款
+    - 教育传播类：故事主播、短视频制作、摄影摄像
+  category: activity
+  tags:
+    - 志愿服务
+    - 社会工作
+    - 困境儿童
+    - 社区服务
+    - 公益组织
+  events:
+    - year: 2025
+      id: collaborator-volunteer-2025
+      link: https://mp.weixin.qq.com/s/yGQH94y4syCOhsWLFAXxWg
+      timeline:
+        - deadline: '2025-12-31T23:59:59'
+          comment: '长期招募志愿者'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 全国各地社区
+
+- title: 公益传播水手计划
+  description: NGO微观察发起的公益传播能力建设计划，已进行到第三期。通过案例拆解+主题练习+社群交流的方式，帮助公益机构提升传播能力，强调日常传播的重要性，让真正有价值的传播在真实的日常里与服务对象、捐赠人、志愿者和公众持续对话。
+  organizer: NGO微观察
+  mission: 回归日常，耕耘属于自己的信任土壤，让日常传播落地到行动中
+  services:
+    - 撰写个人故事
+    - 共创99传播灵感库
+    - 开展捐赠人访谈
+    - 发现传播的日常
+    - 给捐赠人写感谢信
+  category: activity
+  tags:
+    - 公益传播
+    - 能力建设
+    - 机构发展
+    - 日常传播
+    - 筹款
+  events:
+    - year: 2025
+      id: ngo-communication-sailor-2025
+      link: https://mp.weixin.qq.com/s/qefO2G-6PHGcj-O9OtB7xA
+      timeline:
+        - deadline: '2025-09-23T08:00:00'
+          comment: '第三期水手计划启动'
+        - deadline: '2025-12-31T23:59:59'
+          comment: '长期招募参与者'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 线上社群+线下活动
+
+- title: 2025「御寒行动」温暖再启！
+  description: 第七年持续为乡村孩子送去冬日温暖，采用"一对一直接到人"模式，确保每份物资直达孩子手中，全程透明可追溯。通过小程序认领孩子心愿，捐赠御寒物品和学习生活用品。
+  organizer: 上海大丰公益基金会
+  mission: 七载暖冬，感恩有你！为乡村孩子送去冬日的温暖，将爱心由御寒延伸至孩子们的学习与生活。
+  donation_items:
+    - 御寒类物品：棉被、褥子、羽绒服、棉衣裤、毛衣、厚外套、围巾、帽子、手套等
+    - 学习与生活用品：羽毛球拍及球、乒乓球拍及球、学生餐桌、跳绳、足球、篮球、呼啦圈、单人小床等
+  participation_method: 通过「御寒行动」小程序认领孩子心愿，准备物资并邮寄
+  features:
+    - 一对一直接到人模式
+    - 全程透明可追溯
+    - 专属捐赠标签追踪
+    - 签收照和电子证书反馈
+  coverage: 全国乡村地区
+  category: activity
+  tags:
+    - 公益活动
+    - 儿童关爱
+    - 御寒行动
+    - 乡村教育
+    - 物资捐赠
+  events:
+    - year: 2025
+      id: winter-warmth-2025
+      link: https://mp.weixin.qq.com/s/EUYkcVWLEog5h2WuH46fLg
+      timeline:
+        - deadline: '2025-09-20T00:00:00'
+          comment: '活动正式启动'
+        - deadline: '2025-10-20T23:59:59'
+          comment: '活动结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月20日-10月20日
+      place: 全国乡村地区
+
+- title: 顺丰森林｜第三批顺丰森林项目助理招募开启！
+  description: 顺丰森林-碳中和项目启动于2020年，作为企业参与碳中和新模式的积极探索，以线上顺丰森林应用、线下碳中和林为基础，并在西藏、四川设立自然保护地。现招募项目助理1-2人，协助项目经理监督和评估种植、抚育等工作效果。
+  organizer: 顺丰公益基金会
+  position: 项目助理（线上）
+  recruitment_count: 1-2人
+  work_content: 协助项目经理监督和评估种植、抚育等工作效果，研究林业环保政策法规，策划组织线上活动，运营社群，协助碳中和林种植管护等
+  requirements: 顺丰莲花助学反哺计划在校本科生及研究生，专业不限，林学、环境科学、生态学等专业优先，热爱公益事业，对生态环境保护有热情
+  benefits: 实习薪资、业内培训学习资源、项目管理能力培养、实习证明、线下实践机会等
+  achievements: 截至2025年9月，顺丰森林应用共计150,000+人参与，领养树苗150,000+棵，实地种植10,000+亩100+万棵碳中和林
+  category: activity
+  tags:
+    - 公益招募
+    - 环保项目
+    - 碳中和
+    - 生态保护
+    - 项目助理
+    - 顺丰公益
+  events:
+    - year: 2025
+      id: sf-forest-assistant-2025
+      link: https://mp.weixin.qq.com/s/18Abni9K2ggsgJ0vvW3CHA
+      timeline:
+        - deadline: '2025-10-08T23:59:00'
+          comment: '申请截止时间'
+      timezone: Asia/Shanghai
+      date: 申请截止：2025年10月8日23:59前
+      place: 线上招募
+
+- title: "一对一"
+  description: 顺丰莲花助学项目是于2012年发起的全国性发展型助学项目，以学生为中心，关注个体成长及发展。采取"一对一资助"在线结对方式，让爱心精准抵达，通过以县域为单位、集中申请、家访核实、持续资助及陪伴支持的方式，建立人与人之间更好的连结。
+  organizer: 顺丰公益基金会
+  mission: 助力困境学生顺利完成学业，成长为具有优秀品格及丰富的内心世界，能够适应社会发展，并愿意反哺社会的美好青年
+  achievements: 截至目前，已在全国18省67县累计资助41918名困境家庭学生，近3万人完成高中学业并进入大学继续就读，2018年项目荣获第十届中华慈善奖
+  services: 经济支持为基础的长期成长支持与赋能，包括学费或生活开支资助、梦想分享会、公益行走访等
+  participation: 注册成为顺丰公益志愿者，通过"顺丰公益基金会"微信小程序进行在线结对
+  target_group: 困境家庭学生，每个需要帮助的孩子都经过家访核实与审核
+  feedback: 清晰透明的反馈包括助学金发放信息、学子感谢留言、学习生活照片、学业状态更新等
+  category: activity
+  tags:
+    - 教育公益
+    - 一对一助学
+    - 困境学生
+    - 成长陪伴
+    - 顺丰公益
+    - 莲花助学
+  events:
+    - year: 2025
+      id: sf-lotus-education-2025
+      link: https://mp.weixin.qq.com/s/64bMm_Np_BJLdyyx8TC7bw
+      timeline:
+        - deadline: '2025-12-31T23:59:00'
+          comment: '全年持续招募志愿者和资助对象'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 全国18省67县
+
+- title: 城市里的万物共生：城市生物多样性主题展
+  description: 展览通过实地导览，让参与者感受"自然疗愈之美"，探讨如何平衡城市发展与物种保护、如何在城市空间中推动"人与动物的共生"、如何通过设计与生态行动改善生存环境。
+  organizer: Business Ecology 商业生态
+  theme: 聚焦城市生态保护与生物多样性
+  curator: 孙海燕
+  target_audience: 关注可持续发展、生物多样性等议题的从业者
+  fee: 免费（每场限额10人）
+  registration: 扫描二维码报名，收到确认短信后参加
+  category: activity
+  tags:
+    - 生物多样性
+    - 城市生态
+    - 可持续发展
+    - 环境保护
+    - 导览学习
+  events:
+    - year: 2025
+      id: urban-biodiversity-exhibition-2025
+      link: https://mp.weixin.qq.com/s/l5PXvh2YuEgdLMA7qCGpIA?from=groupmessage
+      timeline:
+        - deadline: '2025-09-30T14:00:00'
+          comment: '场次①导览学习活动'
+        - deadline: '2025-09-30T15:30:00'
+          comment: '场次①结束'
+        - deadline: '2025-10-16T14:00:00'
+          comment: '场次②导览学习活动'
+        - deadline: '2025-10-16T15:30:00'
+          comment: '场次②结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月30日、10月16日
+      place: 上海图书馆东馆 4F、5F
+
+- title: 衣续·旧衣再生共创计划
+  description: 由Chirpy Cheers!发起，联合根与芽、国际计划、民促会共同推进的青年绿色发展项目。通过衣物再生手工坊、可续读写会等活动，应对快时尚消费模式带来的压力，探索可持续生活方式的多种可能。
+  category: activity
+  organizer: Chirpy Cheers!
+  partners: ["根与芽", "国际计划", "民促会"]
+  project_type: 青年绿色发展项目
+  background: 应对快时尚时代带给消费者的压力和负担，探讨可持续生活方式的多种可能
+  concept: 以联结的力量应对快时尚消费模式，推动负责任的服装消费习惯，延长衣物生命周期
+  activities:
+    - name: 衣物再生手工坊
+      content: 通过解构、重组与再创造，包括布绳编织、布艺拼贴、衣料画染、旧衣重制等
+    - name: 衣物可续读写会
+      content: 线上主题读写会，共创衣物可续手册
+    - name: 交流交换分享会
+      content: 线下交流对谈和见面交流
+  vision: 从"衣续"出发，延伸至"食""住""行"等更多维度，实现更广泛的可持续生活
+  participation: 关注活动通知，参与手工坊和读写会
+  tags:
+    - 可持续发展
+    - 环保
+    - 旧衣改造
+    - 手工创作
+    - 循环利用
+  events:
+    - year: 2025
+      id: clothing-renewal-2025
+      link: https://mp.weixin.qq.com/s/tYv60mNlJ22dHyZhcOe5fg
+      timeline:
+        - deadline: '2025-09-30T09:00:00'
+          comment: '衣物再生手工坊开始'
+        - deadline: '2025-11-30T18:00:00'
+          comment: '项目结束'
+      timezone: Asia/Shanghai
+      date: 从九月底开始，持续两个月
+      place: 北京（线下活动）+ 线上
+
+- title: 小雪宝 (LeukemiaPal) - 白血病AI关爱助手
+  description: 社区驱动、医生主导的公益AI项目，为白血病患者、家属及临床医生提供智能、可靠、富有同理心的信息支持与自我管理平台。
+  category: activity
+  organizer: 小X宝社区
+  project_nature: 社区驱动、医生主导的公益AI项目
+  target_audience: 白血病患者、家属及临床医生
+  core_values:
+    - 消除信息鸿沟：提供权威、个性化的白血病相关知识问答
+    - 儿童白血病关爱：特别关注儿童患者，提供适龄的科普和心理支持
+    - 医生辅助工具：为临床医生提供高效的文献查询与知识检索工具
+    - 公益性质：完全免费开源，致力于服务白血病患者群体
+  main_functions:
+    - 智能问答系统：基于权威指南（NCCN, CSCO）的精准医疗知识问答
+    - 儿童关爱模块：绘本风格和动画形式的儿童科普内容
+    - 医生专业工具：精细化医疗知识检索和最新研究文献查询
+    - 个性化管理：匿名用户画像系统和个性化内容推荐
+  technical_solution:
+    mvp_phase: 基于腾讯元器、Coze等低代码平台快速搭建
+    opensource_phase: 参照RAG技术栈，迁移至开源架构
+    future_evolution: 引入基于脱敏病例训练的垂直模型
+  implementation_plan:
+    phase_1: 核心团队组建、知识库初建、MVP版本发布（1-2个月）
+    phase_2: 项目开源化，完整功能开发
+  social_value: 直接服务于白血病患者群体，特别是为患儿家庭提供精神支持和科学指导
+  tags:
+    - AI助手
+    - 白血病关爱
+    - 医疗公益
+    - 儿童健康
+    - 开源项目
+  events:
+    - year: 2025
+      id: leukemia-pal-2025
+      link: https://mp.weixin.qq.com/s/xTJiOYGS3HZhWovH6xsRcQ
+      timeline:
+        - deadline: '2025-12-01T09:00:00'
+          comment: '长期招募'
+      timezone: Asia/Shanghai
+      date: 2025年
+      place: 线上平台
+
+- title: 听障女性反家暴小程序服务资源入驻
+  description: 为听障女性打造随时可用的身心健康权益支持平台，解决她们在面临家庭关系和亲密关系风险时遇到的沟通与信息获取障碍。
+  category: activity
+  organizer: 重庆两江新区知珑社会工作服务中心（Know Deaf）
+  support_organization: 联合国人口基金
+  project_background: 听力障碍女性在面临家庭关系风险时常遇到双重障碍，既要紧急处理当下局面，又受到沟通与信息获取渠道不足的限制
+  core_services:
+    - 危险关系自评：通过问卷形式帮助用户提前识别潜在风险
+    - 手语翻译预约：预约专业手语翻译或志愿者，获取无障碍沟通服务
+    - 服务地图：提供各类身心健康和权益支持服务点信息
+  recruitment_targets:
+    - 社会组织/服务机构：法律服务、心理支持、医疗健康、残障者自组织等
+    - 专业手语翻译：具备中国手语技能和服务经验的专业人员
+  service_features:
+    - 科技助力无障碍支持
+    - 全国覆盖服务网络
+    - 多元化服务内容
+  application_method:
+    - 机构入驻：填写社会组织入驻申请表
+    - 手语翻译：通过小程序"我的"-"入驻翻译"入口申请
+  project_goal: 构建更具包容性的社会，促进信息平等、沟通无障碍
+  tags:
+    - 听障女性
+    - 反家暴
+    - 无障碍服务
+    - 手语翻译
+    - 权益保护
+    - 社会工作
+  events:
+    - year: 2025
+      id: deaf-women-support-2025
+      link: https://mp.weixin.qq.com/s/k2ffdpptL8IAjwywqBaKUw
+      timeline:
+        - deadline: '2025-12-31T23:59:59'
+          comment: '长期招募有效'
+      timezone: Asia/Shanghai
+      date: 长期有效
+      place: 全国范围
+
+- title: 我和"我"—阿尔茨海默病临床美术公益展【家属共创：从"照顾者"到"同学"】
+  主办单位: 康语轩老年公寓、北大医疗集团、平安人寿北京分公司
+  协办单位: 日本临床美术协会、心愈悦艺术疗愈
+  展览时间: 2025年9月22日开幕
+  展览地点: 北京大学国际医院
+  展览内容: 展出103幅认知症长者创作的艺术作品
+  艺术疗法: 日本"临床美术"艺术疗法，通过激发五感进行艺术创作
+  展览分区: 长者个人艺术家、家属共创、五感创作三部分
+  核心理念: 通过艺术创作帮助家属从"照顾者"转向"陪伴者"角色
+  疗愈体系: 心愈悦艺术疗愈五感艺术疗愈体系
+  创作方式: 调动"视·听·嗅·味·触"五感进行创作和表达
+  参与对象: 阿尔茨海默病患者及其家属
+  社会价值: 关注认知症长者的内在世界，促进家庭关系和谐
+  标签: ["艺术疗愈", "阿尔茨海默病", "家属共创", "临床美术", "五感创作", "公益展览"]
+  官方链接: https://mp.weixin.qq.com/s/pgMggKi_1PYyIJRzcXy2Sg
+  description: 建设社区图书馆、流动书屋，开展读书分享会、亲子阅读等活动，营造全民阅读的良好氛围。
+  category: activity
+  tags:
+    - 全民阅读
+    - 书香社会
+    - 文化建设
+  events:
+    - year: 2025
+      id: reading-promotion-2025
+      link: https://mp.weixin.qq.com/s/pgMggKi_1PYyIJRzcXy2Sg
+      timeline:
+        - deadline: '2025-10-21T09:00:00'
+          comment: '展览结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月22日-10月21日
+      place: 北京大学国际医院
+
+- title: "共绘和平：童眸中的生命之光"
+  主办单位: 上海四行仓库有限责任公司、上海夏征农民族文化教育发展基金会、Viva la Vida (VIVA)
+  展览时间: 2025年9月21日至10月12日
+  开放时间: 周一至周日 10:00-17:30
+  展览地点: 上海市静安区光复路21号四行仓库四楼
+  展览主题: 共绘和平：童眸中的生命之光
+  展览内容: 汇集来自全球多个国家和地区的200余幅儿童画作
+  展区分布: "星语心愿"
+  特色活动: 国庆特别互动——童声寄语和平
+  互动区域: "今日心情"
+  展览特点: 多元展陈与互动体验，跨越地域与文化的深度对话
+  教育意义: 传递"珍爱和平、开创未来"的深刻寓意
+  参与对象: 市民家庭，特别是家长携孩子参观
+  门票信息: 免费向公众开放
+  社会价值: 让孩子的表达被看见、被尊重，传递和平信念
+  标签: ["公益画展", "儿童艺术", "和平教育", "国庆专场", "免费开放", "亲子活动"]
+  官方链接: https://mp.weixin.qq.com/s/O1P1CPKwQtGLvoPtWmgq-Q
+  description: "共绘和平：童眸中的生命之光"
+  category: activity
+  tags:
+    - 公益画展
+    - 儿童艺术
+    - 和平教育
+  events:
+    - year: 2025
+      id: peace-art-exhibition-2025
+      link: https://mp.weixin.qq.com/s/O1P1CPKwQtGLvoPtWmgq-Q
+      timeline:
+        - deadline: '2025-09-21T10:00:00'
+          comment: '展览开始'
+        - deadline: '2025-10-12T17:30:00'
+          comment: '展览结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月21日-10月12日
+      place: 上海市静安区光复路21号四行仓库四楼
+
+- title: 听见你 画给你 | 2025年关爱心理困境家庭儿童青少年公益艺术展
+  主办单位: 北京大学第六医院CAFF花园项目组
+  合作单位: 中央美术学院关心下一代工作委员会、凤凰网等爱心伙伴
+  展览时间: 2025年9月29日至10月10日
+  展览地点: 北京蔓阅书院
+  展览主题: 听见你，画给你
+  参展作品: 来自全国40余名心理健康困境家庭的孩子作品
+  服务对象: 精神障碍患者的子女（COPMI）
+  活动目标: 拓宽社会对精神障碍患者家庭及子女的理解和接纳，消除偏见、传递温暖
+  特色功能: 扫码互动，听到孩子的心声，让"看见"与"听见"形成回响
+  展览意义: 积极响应国家关于加强困境儿童心理健康关爱服务工作的号召
+  活动性质: 北京大学第六医院世界精神卫生日系列活动的预热和发声
+  创作理念: 艺术是孩子们的窗户和话筒，让光照进来，让世界听见他们的声音
+  社会价值: 动员更多力量和资源守护孩子们的心理健康，让他们的未来不被偏见所定义
+  参与群体: 主办方、公益机构、爱心伙伴、媒体、COPMI青年代表
+  展览时长: 12天
+  标签: ["公益艺术展", "心理健康", "困境儿童", "精神卫生", "消除偏见", "艺术疗愈"]
+  官方链接: https://mp.weixin.qq.com/s/kIpVtalwZtKW-CfSIPQZJQ
+  description: 北京大学第六医院CAFF花园项目组举办的关爱心理困境家庭儿童青少年公益艺术展，展出全国40余名心理健康困境家庭孩子的作品，旨在消除偏见、传递温暖。
+  category: activity
+  tags:
+    - 公益艺术展
+    - 心理健康
+    - 困境儿童
+    - 精神卫生
+    - 消除偏见
+    - 艺术疗愈
+  events:
+    - year: 2025
+      id: copmi-art-exhibition-2025
+      link: https://mp.weixin.qq.com/s/kIpVtalwZtKW-CfSIPQZJQ
+      timeline:
+        - deadline: '2025-09-29T09:00:00'
+          comment: '展览开始'
+        - deadline: '2025-10-10T18:00:00'
+          comment: '展览结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月29日-10月10日
+      place: 北京蔓阅书院
+
+- title: 山月照我：大凉山阿布洛哈支教老师公益画展
+  展览地点: 大凉山阿布洛哈村
+  支教老师: 江苏扬州刘春阳老师
+  支教时间: 自2018年起至今，已7年
+  学校名称: 林川小学
+  地理位置: 四川省凉山彝族自治州布拖县拉果乡阿布洛哈村
+  地理特色: 全国最后一个通公路的建制村，三面环山、一面临崖，位于金沙江支流西溪河畔
+  彝语含义: "人迹罕至的地方"
+  学校建立: 2005年在各级政府支持和社会各界关心下修建
+  展览主题: 通过艺术笔触，把阿布洛哈的山野之美与人文温度送抵人心
+  创作内容: 7年岁月中将眼前的群山、头顶的明月化作笔下的丹青
+  艺术风格: 极简、渴笔、禅意、空灵、天人合一
+  画作特色: 赭石与群青，山绿与明黄，展现地理的大凉山和人类精神原乡
+  教育意义: 用画笔拾起人性本真，守住根性里的清净
+  支教生活: 与西溪河相依相伴，带孩子们举行中秋晚会，唱歌游戏
+  创作理念: 静气并非避世逃离，而是守住根性里的清净
+  社会价值: 展现支教老师的奉献精神和大凉山的自然人文之美
+  标签: ["公益画展", "支教老师", "大凉山", "艺术创作", "教育扶贫", "人文关怀"]
+  官方链接: https://mp.weixin.qq.com/s/U2CqPPFq0rmI8Xlp8GuIyA
+  description: 推广垃圾分类知识，建设垃圾分类示范社区，培养居民环保习惯，实现垃圾减量化、资源化、无害化。
+  category: activity
+  tags:
+    - 垃圾分类
+    - 环保教育
+    - 社区建设
+  events:
+    - year: 2025
+      id: waste-sorting-2025
+      link: https://example.com/waste-sorting
+      timeline:
+        - deadline: '2025-06-05T10:00:00'
+          comment: '世界环境日启动'
+        - deadline: '2025-12-31T17:00:00'
+          comment: '年度项目总结'
+      timezone: Asia/Shanghai
+      date: 2025年6月-12月
+      place: 城市社区
+
+- title: 【微笑岩说】诚邀您共赴一场艺术与温暖交织的公益画展
+  主办单位: 母亲微笑行动、著名设计师陈林与女儿玉儿
+  展览时间: 2025年9月7日-11月7日
+  开幕仪式: 9月7日 15:00
+  展览地点: 德赛斯全球旗舰店（杭州江南大道1088号）
+  展览主题: 关爱唇腭裂儿童，绽放更多微笑
+  展览内容: 来自唇腭裂儿童与艺术家家庭的共创作品
+  项目背景: 自1990年起，"母亲微笑行动"已免费救助超过50,000名患儿
+  展览特色: 穿越美学空间的公益之旅，画在景中，景入画内的奇妙体验
+  互动环节: 互动画卷，参观者可在画卷上留下属于自己的色彩与笔触
+  艺术疗愈: 通过画笔和色彩，让唇腭裂儿童表达内心情感，探索自我
+  社会价值: 用艺术打破偏见，让关爱成为更温暖的力量，唤起公众对唇腭裂群体的更多关注
+  参与对象: 社会各界人士
+  展览意义: 将公益的实用性升华为艺术的美感，让关爱与微笑在每一个观众心中绽放
+  标签: ["公益画展", "唇腭裂关爱", "艺术疗愈", "母亲微笑行动", "互动艺术", "社会公益"]
+  官方链接: https://mp.weixin.qq.com/s/bdz-buF2fs145CYmJAekjA
+  description: 由著名设计师陈林与女儿玉儿携手"母亲微笑行动"发起的公益画展，展出来自唇腭裂儿童与艺术家家庭的共创作品，用艺术打破偏见，让关爱成为更温暖的力量。
+  category: activity
+  tags:
+    - 公益画展
+    - 唇腭裂关爱
+    - 艺术疗愈
+    - 母亲微笑行动
+    - 互动艺术
+    - 社会公益
+  events:
+    - year: 2025
+      id: smile-art-exhibition-2025
+      link: https://mp.weixin.qq.com/s/bdz-buF2fs145CYmJAekjA
+      timeline:
+        - deadline: '2025-09-07T15:00:00'
+          comment: '开幕仪式'
+        - deadline: '2025-11-07T17:00:00'
+          comment: '展览结束'
+      timezone: Asia/Shanghai
+      date: 2025年9月7日-11月7日
+      place: 德赛斯全球旗舰店（杭州江南大道1088号）
