@@ -92,7 +92,14 @@ export default function Home() {
 
     // 收藏过滤
     if (showOnlyFavorites) {
-      filtered = filtered.filter(flatEvent => favorites.has(flatEvent.item.id))
+      console.log('Filtering favorites:', { favorites, showOnlyFavorites, totalEvents: filtered.length })
+      filtered = filtered.filter(flatEvent => {
+        const eventId = `${flatEvent.event.id}`
+        const isFavorited = favorites.includes(eventId)
+        console.log(`Event ${eventId}: ${isFavorited ? 'favorited' : 'not favorited'}`)
+        return isFavorited
+      })
+      console.log('Filtered favorites result:', filtered.length)
     }
 
     // 搜索过滤
