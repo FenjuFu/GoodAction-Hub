@@ -24,8 +24,6 @@
 - **竞赛**: 请添加到 `data/competitions.yml`
 - **活动**: 请添加到 `data/activities.yml`
 
-如果您不熟悉 Pull Request 流程，也可以通过Discussions、Issues提交活动链接。
-
 ### 数据结构
 
 请在对应的 YAML 文件中，仿照以下格式添加新条目：
@@ -54,6 +52,8 @@
       date: 2025年11月15日-11月16日 # 人类可读的日期范围
       place: 中国，北京 # 地点
 ```
+
+如果您不熟悉 Pull Request 流程，也可以通过Discussions、Issues提交活动链接。
 
 **注意事项:**
 
