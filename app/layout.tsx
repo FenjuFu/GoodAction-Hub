@@ -1,14 +1,15 @@
 import I18nProvider from '@/components/I18nProvider';
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+// 使用 Inter 字体替代 Geist 字体以避免 Turbopack 兼容性问题
+const fontMono = Inter({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -29,7 +30,7 @@ export default function RootLayout({
         <script defer src="https://umami.rkd.icu/script.js" data-website-id="78225323-cc05-46af-9a51-6c670b9a804a"></script>
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${fontMono.variable} antialiased`}
       >
         <I18nProvider>{children}</I18nProvider>
       </body>

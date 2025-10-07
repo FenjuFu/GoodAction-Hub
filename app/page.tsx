@@ -121,7 +121,23 @@ export default function Home() {
       filtered = results.map(result => result.item)
     }
 
-    return filtered.sort((a, b) => a.timeRemaining - b.timeRemaining)
+    // 排序逻辑：未结束的活动按 timeRemaining 升序，已结束的活动放在最后
+    return filtered.sort((a, b) => {
+      const aCompleted = a.timeRemaining < 0
+      const bCompleted = b.timeRemaining < 0
+      
+      // 如果一个已结束，一个未结束，未结束的排在前面
+      if (aCompleted && !bCompleted) return 1
+      if (!aCompleted && bCompleted) return -1
+      
+      // 如果都未结束，按 timeRemaining 升序（即将到期的在前）
+      if (!aCompleted && !bCompleted) {
+        return a.timeRemaining - b.timeRemaining
+      }
+      
+      // 如果都已结束，按 timeRemaining 降序（最近结束的在前）
+      return b.timeRemaining - a.timeRemaining
+    })
   }, [eventsWithSearchDates, selectedCategory, selectedTags, selectedLocations, searchQuery, showOnlyFavorites, favorites])
 
   if (loading) {
