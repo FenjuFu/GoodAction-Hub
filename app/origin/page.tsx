@@ -1,31 +1,14 @@
 'use client'
 
 import { Aggregation } from '@/components/Aggregation'
-import { DeadlineItem, EventData } from '@/lib/data'
 import { useEventStore } from '@/lib/store'
-import Fuse from 'fuse.js'
-import { DateTime } from 'luxon'
-import { useEffect, useMemo } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-
-interface FlatEvent {
-  item: DeadlineItem
-  event: EventData
-  nextDeadline: DateTime
-  timeRemaining: number
-}
 
 export default function Home() {
   const {
-    items,
     loading,
     fetchItems,
-    selectedCategory,
-    selectedTags,
-    selectedLocations,
-    searchQuery,
-    favorites,
-    showOnlyFavorites,
   } = useEventStore()
 
   useEffect(() => {
@@ -34,57 +17,35 @@ export default function Home() {
 
   const { t } = useTranslation();
 
-  const flatEvents: FlatEvent[] = useMemo(() => items.flatMap(item =>
-    item.events.map(event => {
-      const now = DateTime.now().setZone("Asia/Shanghai")
-      const upcomingDeadlines = event.timeline
-        .map(t => DateTime.fromISO(t.deadline, { zone: event.timezone }))
-        .filter(d => d > now)
-        .sort((a, b) => a.toMillis() - b.toMillis())
+  // Filtered events for display (currently unused in this page)
+  // const filteredEvents = useMemo(() => {
+  //   let results: FlatEvent[]
 
-      const nextDeadline = upcomingDeadlines[0] ||
-        DateTime.fromISO(event.timeline[event.timeline.length - 1].deadline, { zone: event.timezone })
-      const timeRemaining = nextDeadline.toMillis() - now.toMillis()
+  //   if (searchQuery.trim() && fuse) {
+  //     results = fuse.search(searchQuery.trim()).map(result => result.item)
+  //   } else {
+  //     results = flatEvents
+  //   }
 
-      return { item, event, nextDeadline, timeRemaining }
-    })
-  ), [items])
+  //   return results
+  //     .filter(({ item, event }) => {
+  //       if (showOnlyFavorites && !favorites.includes(`${event.id}`)) return false
+  //       if (selectedCategory && item.category !== selectedCategory) return false
+  //       if (selectedTags.length > 0 && !selectedTags.some(tag => item.tags.includes(tag))) return false
+  //       if (selectedLocations.length > 0 && !selectedLocations.includes(event.place)) return false
+  //       return true
+  //     })
+  //     .sort((a, b) => {
+  //       const aEnded = a.timeRemaining < 0
+  //       const bEnded = b.timeRemaining < 0
 
-  const fuse = useMemo(() => {
-    return new Fuse(flatEvents, {
-      keys: ['item.title', 'item.description', 'item.tags', 'event.place'],
-      threshold: 0.3,
-    })
-  }, [flatEvents])
+  //       if (aEnded && !bEnded) return 1
+  //       if (!aEnded && bEnded) return -1
+  //       if (aEnded && bEnded) return b.timeRemaining - a.timeRemaining
 
-  const displayEvents = useMemo(() => {
-    let results: FlatEvent[]
-
-    if (searchQuery.trim() && fuse) {
-      results = fuse.search(searchQuery.trim()).map(result => result.item)
-    } else {
-      results = flatEvents
-    }
-
-    return results
-      .filter(({ item, event }) => {
-        if (showOnlyFavorites && !favorites.includes(`${event.id}`)) return false
-        if (selectedCategory && item.category !== selectedCategory) return false
-        if (selectedTags.length > 0 && !selectedTags.some(tag => item.tags.includes(tag))) return false
-        if (selectedLocations.length > 0 && !selectedLocations.includes(event.place)) return false
-        return true
-      })
-      .sort((a, b) => {
-        const aEnded = a.timeRemaining < 0
-        const bEnded = b.timeRemaining < 0
-
-        if (aEnded && !bEnded) return 1
-        if (!aEnded && bEnded) return -1
-        if (aEnded && bEnded) return b.timeRemaining - a.timeRemaining
-
-        return a.timeRemaining - b.timeRemaining
-      })
-  }, [flatEvents, searchQuery, fuse, selectedCategory, selectedTags, selectedLocations, favorites, showOnlyFavorites]);
+  //       return a.timeRemaining - b.timeRemaining
+  //     })
+  // }, [flatEvents, searchQuery, fuse, selectedCategory, selectedTags, selectedLocations, favorites, showOnlyFavorites]);
 
   if (loading) {
     return (

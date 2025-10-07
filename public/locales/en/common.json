@@ -26,10 +26,10 @@
     "develop": "Developed"
   },
   "filter": {
-    "searchPlaceholder": "Search events, tags, locations or dates (e.g., 2024-12-25, December, 2024)...",
+    "searchPlaceholder": "Enter topics, locations, time to explore!",
     "searchTimezone": "Search timezone...",
     "autoDetect": "Auto Detect",
-    "onlyFavorites": "Only show favorites",
+    "onlyFavorites": "Favorites Only",
     "category": "Category",
     "all": "All",
     "category_conference": "Conference",
@@ -45,6 +45,14 @@
   },
   "calendar": {
     "title": "Calendar",
-    "download": "Download .ics"
+    "download": "Download .ics",
+    "google": "Google",
+    "outlook": "Outlook.com",
+    "yahoo": "Yahoo",
+    "apple": "Apple / iCal"
+  },
+  "ui_text": {
+    "search_placeholder": "Search ...",
+    "github_repo": "GitHub Repo"
   }
 }

@@ -107,7 +107,7 @@ END:VCALENDAR`;
             rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
-            <CalendarDays className="h-4 w-4" /> Google
+            <CalendarDays className="h-4 w-4" /> 谷歌日历
           </a>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
@@ -117,7 +117,7 @@ END:VCALENDAR`;
             rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
-            <Mail className="h-4 w-4" /> Outlook.com
+            <Mail className="h-4 w-4" /> Outlook日历
           </a>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
@@ -127,14 +127,14 @@ END:VCALENDAR`;
             rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
-            <CalendarRange className="h-4 w-4" /> Yahoo
+            <CalendarRange className="h-4 w-4" /> 雅虎日历
           </a>
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={handleDownloadICS}
           className="flex items-center gap-2 cursor-pointer"
         >
-          <Apple className="h-4 w-4" /> Apple / iCal ({t("calendar.download")})
+          <Apple className="h-4 w-4" /> 苹果日历 ({t("calendar.download")})
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

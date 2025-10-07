@@ -27,7 +27,7 @@ export function Aggregation() {
         {/* Input field */}
         <input
           type="text"
-          placeholder="Search ..."
+          placeholder="搜索..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onKeyDown={(e) => {
@@ -39,7 +39,7 @@ export function Aggregation() {
         {/* Submit button */}
         <button
           onClick={handleSearch}
-          aria-label="search"
+          aria-label="搜索"
           className="ml-4 rounded-full bg-white/20 hover:bg-white/30 p-3 flex items-center justify-center transition-colors"
         >
           <Search className="w-5 h-5 text-white" />

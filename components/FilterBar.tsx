@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input'
 import { Search, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useTranslation } from 'react-i18next'
-import TimezoneSelector from './TimezoneSelector'
+import { TimezoneSelector } from './TimezoneSelector'
 
 export function FilterBar() {
   const {
@@ -29,7 +29,7 @@ export function FilterBar() {
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
         <Input
           type="text"
-          placeholder={t('searchPlaceholder')}
+          placeholder={t('filter.searchPlaceholder')}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="pl-10"
@@ -63,7 +63,7 @@ export function FilterBar() {
               }`} 
             />
             <span className="font-medium">
-              {t('onlyFavorites')}
+              {t('filter.onlyFavorites')}
             </span>
             {showOnlyFavorites && (
               <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 animate-pulse" />
@@ -77,7 +77,7 @@ export function FilterBar() {
 
       {/* Categories */}
       <div>
-        <h3 className="text-sm font-medium mb-2">{t('category')}</h3>
+        <h3 className="text-sm font-medium mb-2">{t('filter.category')}</h3>
         <div className="flex flex-wrap gap-2">
           <Button
             variant={selectedCategory === null ? 'default' : 'outline'}
@@ -88,7 +88,7 @@ export function FilterBar() {
               } hover:cursor-pointer`}
             onClick={() => setCategory(null)}
           >
-            {t('all')}
+            {t('filter.all')}
           </Button>
           {categories.map((category) => (
             <Button
@@ -101,7 +101,7 @@ export function FilterBar() {
                 } capitalize hover:cursor-pointer`}
               onClick={() => setCategory(category)}
             >
-              {t(`category_${category}`)}
+              {t(`filter.category_${category}`)}
             </Button>
           ))}
         </div>

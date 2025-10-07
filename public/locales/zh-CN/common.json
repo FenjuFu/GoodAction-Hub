@@ -20,10 +20,10 @@
   },
 
   "filter": {
-    "searchPlaceholder": "搜索活动、标签、地点或日期...",
+    "searchPlaceholder": "输入主题、地点、时间探索！",
     "searchTimezone": "搜索时区...",
     "autoDetect": "自动检测",
-    "onlyFavorites": "只显示收藏",
+    "onlyFavorites": "只看收藏",
     "category": "类别",
     "all": "全部",
     "category_conference": "会议",
@@ -39,6 +39,14 @@
   },
   "calendar": {
     "title": "日历",
-    "download": "下载 .ics"
+    "download": "下载 .ics",
+    "google": "谷歌日历",
+    "outlook": "Outlook日历",
+    "yahoo": "雅虎日历",
+    "apple": "苹果日历"
+  },
+  "ui_text": {
+    "search_placeholder": "搜索...",
+    "github_repo": "GitHub 仓库"
   }
 }
