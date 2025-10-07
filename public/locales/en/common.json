@@ -26,7 +26,7 @@
     "develop": "Developed"
   },
   "filter": {
-    "searchPlaceholder": "Search events, tags or locations...",
+    "searchPlaceholder": "Search events, tags, locations or dates (e.g., 2024-12-25, December, 2024)...",
     "searchTimezone": "Search timezone...",
     "autoDetect": "Auto Detect",
     "onlyFavorites": "Only show favorites",

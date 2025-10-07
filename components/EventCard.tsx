@@ -104,11 +104,11 @@ export function EventCard({ item, event }: EventCardProps) {
 
   // 类别标签组件
   const CategoryBadge = () => (
-    <div className={`inline-flex px-3 py-1.5 rounded-lg text-sm font-semibold whitespace-nowrap ${{
-      'conference': 'bg-green-600 text-white',
-      'competition': 'bg-red-600 text-white',
-      'activity': 'bg-purple-600 text-white'
-    }[item.category] || 'bg-primary text-white'
+    <div className={`inline-flex px-4 py-2 rounded-xl text-sm font-bold whitespace-nowrap shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl ${{
+      'conference': 'bg-gradient-to-r from-purple-500 to-purple-600 text-white',
+      'competition': 'bg-gradient-to-r from-pink-500 to-pink-600 text-white',
+      'activity': 'bg-gradient-to-r from-cyan-500 to-cyan-600 text-white'
+    }[item.category] || 'bg-gradient-to-r from-purple-500 to-purple-600 text-white'
       }`}>
       {t(`filter.category_${item.category}`)}
     </div>
@@ -240,17 +240,17 @@ export function EventCard({ item, event }: EventCardProps) {
 
               {/* 倒计时区域 - 下方 */}
               {!ended && nextDeadline ? (
-                <div className="p-3 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border-2 border-orange-200 shadow-sm">
+                <div className="p-3 bg-gradient-to-br from-purple-100/80 via-pink-100/80 to-cyan-100/80 backdrop-blur-sm rounded-xl border border-white/30 shadow-lg">
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                     {/* 左侧文本信息 */}
                     <div className="space-y-1 text-center lg:text-left">
-                      <div className="text-sm font-bold text-orange-800">
+                      <div className="text-sm font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                         {t('events.nextDeadline')}
                       </div>
-                      <div className="text-sm font-bold text-orange-900 leading-tight break-words">
+                      <div className="text-sm font-bold text-gray-800 leading-tight break-words">
                         {nextDeadline.comment}
                       </div>
-                      <div className="text-xs text-orange-600">
+                      <div className="text-xs text-gray-600">
                         {nextDeadline.date.setZone(displayTimezone).toFormat('yyyy-MM-dd HH:mm:ss')} ({displayTimezoneUTC})
                       </div>
                     </div>
@@ -262,9 +262,9 @@ export function EventCard({ item, event }: EventCardProps) {
                   </div>
                 </div>
               ) : (
-                <div className="p-3 bg-gray-100 rounded-xl border-2 border-gray-200">
+                <div className="p-3 bg-gradient-to-br from-gray-100/80 to-gray-200/80 backdrop-blur-sm rounded-xl border border-white/20 shadow-lg">
                   <div className="text-center">
-                    <div className="text-sm font-bold text-gray-600 mb-1">
+                    <div className="text-sm font-bold bg-gradient-to-r from-gray-600 to-gray-700 bg-clip-text text-transparent mb-1">
                       {t("events.ended")}
                     </div>
                     <div className="text-xs text-gray-500">
@@ -345,16 +345,16 @@ export function EventCard({ item, event }: EventCardProps) {
           {/* 倒计时区域 - 独立一行 */}
           <div className="w-full">
             {!ended && nextDeadline ? (
-              <div className="p-4 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border-2 border-orange-200 shadow-sm">
+              <div className="p-4 bg-gradient-to-br from-purple-100/80 via-pink-100/80 to-cyan-100/80 backdrop-blur-sm rounded-xl border border-white/30 shadow-lg">
                 <div className="text-center space-y-3">
                   <div className="space-y-1">
-                    <div className="text-sm font-bold text-orange-800 mb-1">
+                    <div className="text-sm font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-1">
                       {t('events.nextDeadline')}
                     </div>
-                    <div className="text-base font-bold text-orange-900 leading-tight break-words">
+                    <div className="text-base font-bold text-gray-800 leading-tight break-words">
                       {nextDeadline.comment}
                     </div>
-                    <div className="text-xs text-orange-600">
+                    <div className="text-xs text-gray-600">
                       {nextDeadline.date.setZone(displayTimezone).toFormat('yyyy-MM-dd HH:mm:ss')} ({displayTimezoneUTC})
                     </div>
                   </div>
@@ -364,9 +364,9 @@ export function EventCard({ item, event }: EventCardProps) {
                 </div>
               </div>
             ) : (
-              <div className="p-4 bg-gray-100 rounded-xl border-2 border-gray-200">
+              <div className="p-4 bg-gradient-to-br from-gray-100/80 to-gray-200/80 backdrop-blur-sm rounded-xl border border-white/20 shadow-lg">
                 <div className="text-center">
-                  <div className="text-sm font-bold text-gray-600 mb-1">
+                  <div className="text-sm font-bold bg-gradient-to-r from-gray-600 to-gray-700 bg-clip-text text-transparent mb-1">
                     {t('events.ended')}
                   </div>
                   <div className="text-xs text-gray-500">

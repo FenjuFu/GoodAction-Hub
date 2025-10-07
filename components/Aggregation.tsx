@@ -4,11 +4,7 @@ import { Search } from 'lucide-react'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-export interface AggregationProps {
-  // Optional future props
-}
-
-export function Aggregation({ }: AggregationProps = {}) {
+export function Aggregation() {
   const [searchQuery, setSearchQuery] = useState('')
   const router = useRouter()
 

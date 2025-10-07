@@ -57,7 +57,7 @@ export default function Home() {
     })
   }, [flatEvents])
 
-  const filteredEvents = useMemo(() => {
+  const displayEvents = useMemo(() => {
     let results: FlatEvent[]
 
     if (searchQuery.trim() && fuse) {
@@ -117,7 +117,7 @@ export default function Home() {
         {/* Footer description */}
         <footer className="mt-14 text-center max-w-2xl">
           <p className="text-white/80 text-base md:text-lg italic">
-            GoodAction Hub helps you discover the world's best free opportunities — powered by AI, open to all.
+            GoodAction Hub helps you discover the world&apos;s best free opportunities — powered by AI, open to all.
           </p>
         </footer>
       </div>

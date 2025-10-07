@@ -18,15 +18,9 @@
     "timeline": "时间线",
     "swipe": "滑动"
   },
-  "acknowledgments": {
-    "stack": "使用 Next.js 与 shadcn/ui 构建",
-    "contributor": "inscripoem",
-    "organization": "华科开放原子开源俱乐部",
-    "support": "维护",
-    "develop": "开发"
-  },
+
   "filter": {
-    "searchPlaceholder": "搜索活动、标签或地点...",
+    "searchPlaceholder": "搜索活动、标签、地点或日期...",
     "searchTimezone": "搜索时区...",
     "autoDetect": "自动检测",
     "onlyFavorites": "只显示收藏",
