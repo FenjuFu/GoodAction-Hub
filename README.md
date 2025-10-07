@@ -16,10 +16,6 @@
 
 我们非常欢迎社区贡献！如果您发现有未收录的公益慈善会议、竞赛及活动，或者信息有误，请通过提交 Pull Request 的方式来帮助我们更新。
 
-如果您不熟悉 Pull Request 流程，也可以通过以下方式参与贡献：
-- 在 [GitHub Discussions](https://github.com/FenjuFu/GoodAction-Hub/discussions) 中分享活动链接和信息
-- 在 [GitHub Issues](https://github.com/FenjuFu/GoodAction-Hub/issues) 中提交活动建议或报告信息错误
-
 我们会定期查看并处理这些提交，感谢您对公益事业的支持！
 
 所有活动数据都存储在 `/data` 目录下的 YAML 文件中。
@@ -27,6 +23,8 @@
 - **会议**: 请添加到 `data/conferences.yml`
 - **竞赛**: 请添加到 `data/competitions.yml`
 - **活动**: 请添加到 `data/activities.yml`
+
+如果您不熟悉 Pull Request 流程，也可以通过Discussions、Issues提交活动链接。
 
 ### 数据结构
 
