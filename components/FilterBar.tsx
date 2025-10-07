@@ -34,7 +34,7 @@ export function FilterBar() {
             placeholder={t('filter.searchPlaceholder')}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-14 pr-6 py-4 text-2xl font-medium bg-transparent border-0 rounded-xl placeholder:text-2xl placeholder:text-gray-400 focus:ring-0 focus:outline-none h-16 text-gray-800 !text-2xl"
+            className="pl-14 pr-6 py-3 sm:py-4 text-base sm:text-xl md:text-2xl font-medium bg-transparent border-0 rounded-xl placeholder:text-base sm:placeholder:text-xl md:placeholder:text-2xl placeholder:text-gray-400 focus:ring-0 focus:outline-none h-12 sm:h-14 md:h-16 text-gray-800"
           />
           <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-50/50 to-purple-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
         </div>
