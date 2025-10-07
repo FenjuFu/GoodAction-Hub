@@ -24,16 +24,20 @@ export function FilterBar() {
 
   return (
     <div className="space-y-4">
-      {/* Search */}
-      <div className="relative">
-        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-        <Input
-          type="text"
-          placeholder={t('filter.searchPlaceholder')}
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="pl-10"
-        />
+      {/* Enhanced Search Box */}
+      <div className="relative group">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="relative bg-white rounded-xl shadow-lg border-2 border-gray-200 hover:border-blue-400 focus-within:border-blue-500 transition-all duration-300 hover:shadow-xl focus-within:shadow-2xl">
+          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-6 h-6 group-hover:text-blue-500 group-focus-within:text-blue-600 transition-colors duration-300" />
+          <Input
+            type="text"
+            placeholder={t('filter.searchPlaceholder')}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="pl-14 pr-6 py-4 text-2xl font-medium bg-transparent border-0 rounded-xl placeholder:text-2xl placeholder:text-gray-400 focus:ring-0 focus:outline-none h-16 text-gray-800 !text-2xl"
+          />
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-50/50 to-purple-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+        </div>
       </div>
 
       {/* Favorites and Timezone Row */}
