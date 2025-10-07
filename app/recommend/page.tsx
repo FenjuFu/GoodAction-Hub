@@ -1,7 +1,7 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, Suspense } from 'react'
 import { DateTime } from 'luxon'
 import { EventCard } from '@/components/EventCard'
 import Fuse from 'fuse.js'
@@ -45,7 +45,7 @@ async function getData(): Promise<DeadlineItem[]> {
   return data
 }
 
-export default function RecommendPage() {
+function RecommendPageContent() {
   const searchParams = useSearchParams()
   const query = searchParams.get('query') || ''
 
@@ -174,5 +174,13 @@ export default function RecommendPage() {
 
       </div>
     </div>
+  )
+}
+
+export default function RecommendPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <RecommendPageContent />
+    </Suspense>
   )
 }

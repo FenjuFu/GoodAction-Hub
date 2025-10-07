@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "env COREPACK_ENABLE_AUTO_PIN=0 next build",
+    "build:static": "set COREPACK_ENABLE_AUTO_PIN=0 && next build",
+    "build:github": "next build",
+    "build:huawei": "npm run build:static",
     "start": "next start",
     "lint": "env COREPACK_ENABLE_AUTO_PIN=0 next lint",
     "knip": "knip",

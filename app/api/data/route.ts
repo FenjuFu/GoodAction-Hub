@@ -4,6 +4,8 @@ import fs from 'fs'
 import path from 'path'
 import { DeadlineItem } from '@/lib/data'
 
+export const dynamic = 'force-static'
+
 function loadData(): DeadlineItem[] {
   const conferencesPath = path.join(process.cwd(), 'data', 'conferences.yml')
   const competitionsPath = path.join(process.cwd(), 'data', 'competitions.yml')
