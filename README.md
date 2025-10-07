@@ -53,8 +53,6 @@
       place: 中国，北京 # 地点
 ```
 
-如果您不熟悉 Pull Request 流程，也可以通过Discussions、Issues提交活动链接。
-
 **注意事项:**
 
 - `category`: 必须是 `conference` 、 `competition` 或 `activity`
@@ -62,6 +60,10 @@
 - `timezone`: 请使用标准的 IANA 时区名称（例如 `Asia/Shanghai`），否则会影响时区转换
 - `date`: 请使用人类可读的单个日期或日期范围，如 `2025 年 4 月 30 日` 或 `2025 年 4 月 30 日 - 9 月 30 日`
 - `place`: 活动地址，如 `中国，上海`（`国家，城市`）；如果是线上活动，直接写 `线上`
+
+💡 **新手友好提示**：如果您不熟悉 Pull Request 流程，也可以通过Discussions和Issues方式提交活动信息，我们来帮您添加  
+> 
+> 🎉 **每一份贡献都很珍贵，欢迎您的参与！**
 
 ## 开发指南
 
