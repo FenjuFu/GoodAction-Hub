@@ -168,7 +168,7 @@ export default function Home() {
               公益慈善活动截止日期
             </h1>
             <Link
-              href="https://github.com/your-repo/GoodAction-Hub"
+              href="https://github.com/FenjuFu/GoodAction-Hub"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
