@@ -535,24 +535,22 @@
   社会价值: 展现支教老师的奉献精神和大凉山的自然人文之美
   标签: ["公益画展", "支教老师", "大凉山", "艺术创作", "教育扶贫", "人文关怀"]
   官方链接: https://mp.weixin.qq.com/s/U2CqPPFq0rmI8Xlp8GuIyA
-  description: 推广垃圾分类知识，建设垃圾分类示范社区，培养居民环保习惯，实现垃圾减量化、资源化、无害化。
+  description: 通过艺术笔触，把阿布洛哈的山野之美与人文温度送抵人心
   category: activity
   tags:
-    - 垃圾分类
-    - 环保教育
-    - 社区建设
+    - 公益画展
+    - 支教老师
+    - 大凉山
   events:
     - year: 2025
-      id: waste-sorting-2025
-      link: https://example.com/waste-sorting
+      id: daliangshan-exhibition-2025
+      link: https://mp.weixin.qq.com/s/U2CqPPFq0rmI8Xlp8GuIyA
       timeline:
-        - deadline: '2025-06-05T10:00:00'
-          comment: '世界环境日启动'
-        - deadline: '2025-12-31T17:00:00'
-          comment: '年度项目总结'
+        - deadline: '2025-10-31T17:00:00'
+          comment: '闭展'
       timezone: Asia/Shanghai
-      date: 2025年6月-12月
-      place: 城市社区
+      date: 2025年9月20日-10月31日
+      place: 四川省凉山彝族自治州布拖县拉果乡阿布洛哈村
 
 - title: 【微笑岩说】诚邀您共赴一场艺术与温暖交织的公益画展
   主办单位: 母亲微笑行动、著名设计师陈林与女儿玉儿
