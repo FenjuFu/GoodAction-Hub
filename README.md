@@ -1,12 +1,16 @@
 # GoodAction Hub公益慈善活动追踪平台
 
-![GitHub License](https://img.shields.io/github/license/hust-open-atom-club/open-source-deadlines)
-![Netlify](https://img.shields.io/netlify/7bf7b12c-07c4-4eac-b959-172cff946003)
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m801274657-9ccd2d3135578fc9bfb05a5b)
-
-[![](https://img.shields.io/badge/Join_Discord-HUST_OPEN_ATOM_CLUB-white?style=flat&color=5662f6&logo=discord&logoColor=5662f6)](https://discord.gg/EMJqcQCCpW)
-
 一个追踪公益慈善会议、竞赛及活动截止日期的网站，帮助公益从业者、志愿者和爱心人士及时了解最新的公益慈善活动动态，不再错过参与公益事业、奉献爱心和社会服务的机会。
+
+## 项目来源
+
+本项目基于 [hust-open-atom-club/open-source-deadlines](https://github.com/hust-open-atom-club/open-source-deadlines) 进行改造开发。原项目是一个优秀的开源活动追踪平台，我们在其基础上进行了以下改进：
+
+- 🎯 **主题转换**：将原有的开源技术活动主题转换为公益慈善活动主题，更好地服务于公益事业
+- 🎨 **UI 新增**：对用户界面进行了设计补充
+- 📊 **数据适配**：调整了数据结构和内容，使其更适合公益慈善活动的特点
+
+感谢原项目团队的开源贡献，为我们提供了优秀的技术基础和架构设计。
 
 ## 如何添加活动
 
