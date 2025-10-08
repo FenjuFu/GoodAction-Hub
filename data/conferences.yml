@@ -1,3 +1,31 @@
+- title: 第十六届雷锋会※骨感染、骨创伤、骨畸形※公益学术会议
+  description: 南阳市第二人民医院主办的公益学术会议，聚焦骨科领域三大核心议题：骨创伤、骨感染与创面修复、骨畸形矫正。会议以"实用、实效、实战"为特色，面向基层医疗，免收会务费并提供午餐。
+  category: conference
+  tags:
+    - 骨科医学
+    - 公益学术
+    - 骨感染
+    - 骨创伤
+    - 骨畸形
+    - 基层医疗
+    - 雷锋会
+  events:
+    - year: 2025
+      id: leifeng-orthopedic-conference-2025
+      link: https://mp.weixin.qq.com/s/SXU6weDvkXZmhIA2_jyJvw
+      timeline:
+        - deadline: '2025-10-28T23:59:59'
+          comment: '报名截止时间'
+        - deadline: '2025-10-31T15:00:00'
+          comment: '报到开始时间'
+        - deadline: '2025-11-01T08:00:00'
+          comment: '会议开始时间'
+        - deadline: '2025-11-01T15:50:00'
+          comment: '会议结束时间'
+      timezone: Asia/Shanghai
+      date: 2025年11月1日
+      place: 河南省南阳市
+
 - title: 第三届老龄志愿与公益服务学术论坛
   description: 探讨AI时代应对人口老龄化的新策略，推动我国老龄志愿与公益服务事业多元发展。聚焦AI与老龄服务精准适配、大数据赋能公益事业、AI老龄社会治理的伦理与风险等前沿议题。
   category: conference

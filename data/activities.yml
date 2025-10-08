@@ -1,3 +1,153 @@
+- title: "星语心愿 乐伴成长"
+  description: 一场特别的公益音乐会，为孤独症儿童提供展示平台。安徽儿童疗愈慈善村的孩子们将用音乐与舞蹈传递热爱，通过艺术绽放展现他们细腻而真实的内心世界。活动包含三个篇章：艺术绽放·心灵共鸣、生命之光·心灵对话、善行接力·爱心拍卖。
+  category: activity
+  tags:
+    - 孤独症儿童
+    - 公益音乐会
+    - 艺术疗愈
+    - 慈善拍卖
+    - 巢湖
+    - 安徽
+    - 疗愈村
+    - 志愿服务
+    - 特殊儿童关爱
+  events:
+    - year: 2025
+      id: star-wishes-music-concert-2025
+      link: https://mp.weixin.qq.com/s/jLWAuyfvQrD2xVTzS486lA
+      timeline:
+        - deadline: '2025-10-18T14:00:00'
+          comment: '公益励志音乐会开始'
+      timezone: Asia/Shanghai
+      date: 2025年10月18日
+      place: 安徽省合肥市
+
+- title: 吃对饭，稳血糖——全息营养生态下的糖尿病健康管理公益科普讲座
+  description: 九里亭街道综合为老服务中心举办的糖尿病健康管理公益科普讲座，特邀营养师为社区长者带来专业的糖尿病饮食管理知识。讲座将颠覆传统认知，告别"饥饿疗法"，学习如何"吃饱吃好"也能稳住血糖。通过"全息营养生态"理念，从整体上改善健康状况。现场教授"手掌法则"、"餐盘搭配"等实用饮食规划技巧，剖析常见的"无糖"陷阱，帮助糖尿病患者科学管理血糖，提高生活质量。
+  category: activity
+  tags:
+    - 糖尿病管理
+    - 健康科普
+    - 营养教育
+    - 公益讲座
+    - 老年健康
+    - 饮食指导
+    - 社区服务
+    - 松江区
+    - 九里亭街道
+  events:
+    - year: 2025
+      id: diabetes-nutrition-lecture-2025
+      link: https://mp.weixin.qq.com/s/IgrXjXOjIB3bR20j7jc9uQ
+      timeline:
+        - deadline: '2025-10-10T09:00:00'
+          comment: '公益科普讲座开始'
+      timezone: Asia/Shanghai
+      date: 2025年10月10日
+      place: 松江区涞坊路288弄九里亭街道综合为老服务中心
+
+- title: 2025全国健身瑜伽公益活动——湖南邵阳站
+  description: 贯彻落实体育总局社体中心关于组织开展2025年"全民健身志愿服务--全国健身瑜伽公益活动"的精神，全面贯彻落实党的二十大关于"促进群众体育和竞技体育全面发展，加快建设体育强国"的决策部署，深入践行"健康中国2030"国家战略与全民健身国家战略，让健身瑜伽成为更多百姓新时代幸福的源泉。
+  category: activity
+  tags:
+    - 健身瑜伽
+    - 公益活动
+    - 全民健身
+    - 体育总局
+    - 邵阳
+    - 湖南
+    - 瑜伽协会
+    - 志愿服务
+    - 健康中国2030
+    - 体育强国
+  events:
+    - year: 2025
+      id: national-fitness-yoga-shaoyang-2025
+      link: https://mp.weixin.qq.com/s/RDzOS6i6dZZWQxY3WdLBkg
+      timeline:
+        - deadline: '2025-10-09T23:59:59'
+          comment: '报名截止时间（前100名）'
+        - deadline: '2025-10-12T07:00:00'
+          comment: '活动开始时间'
+        - deadline: '2025-10-12T10:00:00'
+          comment: '活动结束时间'
+      timezone: Asia/Shanghai
+      date: 2025年10月12日
+      place: 湖南省邵阳市
+
+- title: 2025年合肥市公益体育培训——庐阳专场启动招募
+  description: 合肥市公益体育培训课程"庐阳专场"正式上线，提供羽毛球、乒乓球、篮球、网球、足球、游泳等10+热门培训项目，零基础也能轻松参与，专业教练团队教学，免费学习专业运动技能。重要的事情说三遍：免费！免费！免费！
+  category: activity
+  tags:
+    - 公益体育
+    - 免费培训
+    - 全民健身
+    - 体育教学
+    - 合肥
+    - 庐阳区
+    - 运动技能
+    - 专业教练
+    - 零基础
+  events:
+    - year: 2025
+      id: hefei-sports-training-luyang-2025
+      link: https://mp.weixin.qq.com/s/OlNN3GmNQ7sE3PFhpKuFqA
+      timeline:
+        - deadline: '2025-10-01T00:00:00'
+          comment: '培训开始时间'
+        - deadline: '2025-11-30T23:59:59'
+          comment: '培训结束时间'
+      timezone: Asia/Shanghai
+      date: 2025年10月-11月
+      place: 合肥市庐阳区
+
+- title: 赣县区爱帮公益五大项目温暖起航
+  description: 赣县区爱帮公益志愿者协会执行山东聊城尚善社工中心帮扶五大项目，为孤困儿童、残障儿童、困难大学生、困境儿童和孤贫老人等需要帮助的群体送去温暖与希望。通过一对一关爱、康复补助、助学金、生活改造、精神慰藉等多种形式，构建全方位的公益帮扶体系。
+  category: activity
+  tags:
+    - 公益帮扶
+    - 孤困儿童
+    - 残障儿童
+    - 助学金
+    - 孤贫老人
+    - 赣州
+    - 爱帮公益
+    - 社工服务
+    - 志愿服务
+  events:
+    - year: 2025
+      id: ganxian-aibang-five-projects-2025
+      link: https://mp.weixin.qq.com/s/VIq8S3OICdvPfgijVGqJtw
+      timeline:
+        - deadline: '2025-12-31T23:59:59'
+          comment: '五大项目持续进行中'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 赣州市赣县区
+
+- title: 圆梦公益志愿者招募
+  description: 南京圆梦志愿者服务中心发起的志愿者招募活动，通过文创义卖点位运营，售卖残疾人、退休职工、下岗宝妈制作的非遗手工艺作品。盈利所得除了公益组织自身运营开支外，还将用于南京市高龄独居老人、孤独症儿童、困境青少年关爱活动。探索公益项目商业化运作模式，将公益行为和市场化有机结合。
+  category: activity
+  tags:
+    - 志愿者招募
+    - 公益义卖
+    - 文创产品
+    - 非遗手工艺
+    - 关爱活动
+    - 南京
+    - 妇联志愿者
+    - 巾帼创业
+  events:
+    - year: 2025
+      id: yuanmeng-volunteer-recruitment-2025
+      link: https://mp.weixin.qq.com/s/fKSRVe4QFqMBxAePSB7wSQ
+      timeline:
+        - deadline: '2025-12-31T23:59:59'
+          comment: '长期招募志愿者'
+      timezone: Asia/Shanghai
+      date: 2025年全年
+      place: 南京市（金陵style、新街口中央商场）
+
 - title: "偕来莫愁"
   description: 由江苏省妇女儿童福利基金会与南京莫愁湖公园管理处联合主办的传统文化与心理健康融合活动。以"莫愁女孩+康康"双IP联动为特色，通过汉服巡游、心理团辅、个案咨询、古琴演出、戏曲表演、篆刻艺术展等形式，为妇女儿童及家庭提供心理健康守护服务，传承和弘扬传统文化。
   category: activity
