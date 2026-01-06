@@ -137,7 +137,7 @@ export async function chatSparkX1Http({
     user: "GoodActionHub",
   }
 
-  const resp = await fetch("https://spark-api-open.xf-yun.com/v1/chat/completions", {
+  const resp = await fetch("https://spark-api-open.xf-yun.com/v2/chat/completions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
