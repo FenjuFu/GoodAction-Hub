@@ -7,7 +7,7 @@ const PATH = "/v3.5/chat"
 const APP_ID = process.env.IFLYTEK_APP_ID || ""
 const API_KEY = process.env.IFLYTEK_API_KEY || ""
 const API_SECRET = process.env.IFLYTEK_API_SECRET || ""
-const SPARK_API_PASSWORD = process.env.SPARK_API_PASSWORD || ""
+const SPARK_API_PASSWORD = (process.env.SPARK_API_PASSWORD || process.env.IFLYTEK_SPARK_API_PASSWORD || "").trim()
 
 export interface SparkMessage {
   role: "system" | "user" | "assistant"
@@ -113,6 +113,20 @@ async function chatSparkWs({
   })
 }
 
+type HttpErrorLike = Error & { status?: unknown }
+
+function getHttpStatus(err: unknown): number | undefined {
+  const status = (err as HttpErrorLike | undefined)?.status
+  if (typeof status === "number") return status
+  if (typeof status === "string" && /^\d{3}$/.test(status)) return Number(status)
+  return undefined
+}
+
+function shouldFallbackToWs(httpErr: unknown): boolean {
+  const status = getHttpStatus(httpErr)
+  return status === 401 || status === 403
+}
+
 export async function chatSparkX1Http({
   messages,
   temperature = 0.5,
@@ -148,7 +162,10 @@ export async function chatSparkX1Http({
 
   if (!resp.ok) {
     const errText = await resp.text()
-    throw new Error(`X1 HTTP调用失败: ${resp.status} ${errText}`)
+    const err = new Error(`X1 HTTP调用失败: ${resp.status} ${errText}`) as HttpErrorLike
+    err.name = "SparkHttpError"
+    err.status = resp.status
+    throw err
   }
 
   const data = await resp.json()
@@ -169,13 +186,22 @@ export async function chatSpark(opts: {
   maxTokens?: number
   domain?: string
 }): Promise<string> {
-  // 优先使用 X1 HTTP（若配置了 SPARK_API_PASSWORD），否则回退到 WS v3.5
+  // 优先使用 X1 HTTP（若配置了 SPARK_API_PASSWORD），失败时自动回退到 WS v3.5。
+  // 这样即使 HTTP 密钥配置有误，也不会影响已配置好的 WS 方案。
   if (SPARK_API_PASSWORD) {
-    return chatSparkX1Http({
-      messages: opts.messages,
-      temperature: opts.temperature,
-      maxTokens: opts.maxTokens,
-    })
+    try {
+      return await chatSparkX1Http({
+        messages: opts.messages,
+        temperature: opts.temperature,
+        maxTokens: opts.maxTokens,
+      })
+    } catch (httpErr) {
+      if (APP_ID && API_KEY && API_SECRET && shouldFallbackToWs(httpErr)) {
+        console.warn("[Spark] X1 HTTP 鉴权失败，自动回退 WebSocket v3.5:", httpErr)
+        return chatSparkWs(opts)
+      }
+      throw httpErr
+    }
   }
   return chatSparkWs(opts)
 }
