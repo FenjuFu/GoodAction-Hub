@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, Utensils } from "lucide-react"
 
@@ -65,10 +66,13 @@ export default function HomeSelector() {
       {/* 微信二维码图片 */}
       <div className="flex justify-center mt-12 mb-8">
         <div className="text-center">
-          <img 
-            src="/goodactionhub-12-6.png" 
+          <Image
+            src="/goodactionhub-12-6.png"
             alt="GoodAction Hub 公益生活微信群"
+            width={192}
+            height={192}
             className="w-48 h-48 object-contain mx-auto"
+            unoptimized
           />
           <p className="mt-2 text-sm text-gray-500">
             加入GoodAction Hub开源公益生活交流群

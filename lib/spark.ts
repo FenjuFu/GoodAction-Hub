@@ -202,7 +202,7 @@ export async function chatSpark(opts: {
         console.warn("[Spark] X1 HTTP 失败，自动回退 WebSocket v3.5:", httpErr)
         try {
           return await chatSparkWs(opts)
-        } catch (wsErr) {
+        } catch {
           throw httpErr
         }
       }
