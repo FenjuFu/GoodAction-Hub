@@ -124,7 +124,9 @@ function getHttpStatus(err: unknown): number | undefined {
 
 function shouldFallbackToWs(httpErr: unknown): boolean {
   const status = getHttpStatus(httpErr)
-  return status === 401 || status === 403
+  if (status === 401 || status === 403) return true
+  if (typeof status === "number" && status >= 400) return true
+  return true
 }
 
 export async function chatSparkX1Http({
@@ -197,8 +199,12 @@ export async function chatSpark(opts: {
       })
     } catch (httpErr) {
       if (APP_ID && API_KEY && API_SECRET && shouldFallbackToWs(httpErr)) {
-        console.warn("[Spark] X1 HTTP 鉴权失败，自动回退 WebSocket v3.5:", httpErr)
-        return chatSparkWs(opts)
+        console.warn("[Spark] X1 HTTP 失败，自动回退 WebSocket v3.5:", httpErr)
+        try {
+          return await chatSparkWs(opts)
+        } catch (wsErr) {
+          throw httpErr
+        }
       }
       throw httpErr
     }
