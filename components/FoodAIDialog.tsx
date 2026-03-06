@@ -10,6 +10,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 import { Loader2, WandSparkles } from "lucide-react"
+import { filterBitesCatalog } from "@/lib/bitesCatalog"
 
 interface Recommendation {
   name: string
@@ -59,9 +60,21 @@ export default function FoodAIDialog() {
 
       const data = await res.json()
       const recs: Recommendation[] = data?.recommendations || []
-      setResults(recs)
-    } catch (e: any) {
-      setError(e?.message || "AI推荐失败，请稍后再试")
+      if (recs.length > 0) {
+        setResults(recs)
+        if (data?.source && data.source !== "spark") {
+          setError("AI服务暂不可用，已为您展示本地推荐")
+        }
+        return
+      }
+
+      const localRecs = filterBitesCatalog(location, {}).slice(0, 5)
+      setResults(localRecs)
+      setError("AI服务暂不可用，已为您展示本地推荐")
+    } catch {
+      const localRecs = filterBitesCatalog(location, {}).slice(0, 5)
+      setResults(localRecs)
+      setError("AI服务暂不可用，已为您展示本地推荐")
     } finally {
       setLoading(false)
     }
@@ -130,7 +143,7 @@ export default function FoodAIDialog() {
             </div>
 
             {error && (
-              <div className="text-sm text-red-600"><SafeTranslation tKey="bites.ai_dialog.errors.generic" fallback="生成推荐时出错，请重试" /></div>
+              <div className="text-sm text-red-600">{error}</div>
             )}
 
             {results.length > 0 && (
