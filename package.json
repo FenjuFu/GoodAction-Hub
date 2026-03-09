@@ -12,8 +12,7 @@
     "start": "next start",
     "lint": "next lint",
     "knip": "knip",
-    "prepare": "husky",
-    "preinstall": "node preinstall.js"
+    "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

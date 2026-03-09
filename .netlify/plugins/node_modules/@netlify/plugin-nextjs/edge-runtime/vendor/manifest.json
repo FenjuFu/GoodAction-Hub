@@ -1,5 +1,0 @@
-{
-  "modules": {
-    "https://deno.land/std@0.175.0/node/internal_binding/_timingSafeEqual.ts": {}
-  }
-}
