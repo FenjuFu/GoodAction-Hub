@@ -102,8 +102,8 @@ async function chatSparkWs({
       }
     })
 
-    ws.on("error", (err) => {
-      reject(err)
+    ws.on("error", () => {
+      reject(new Error("星火 WebSocket 连接失败"))
     })
 
     ws.on("close", () => {
@@ -199,7 +199,7 @@ export async function chatSpark(opts: {
       })
     } catch (httpErr) {
       if (APP_ID && API_KEY && API_SECRET && shouldFallbackToWs(httpErr)) {
-        console.warn("[Spark] X1 HTTP 失败，自动回退 WebSocket v3.5:", httpErr)
+        console.warn(`[Spark] X1 HTTP 失败 (status: ${getHttpStatus(httpErr)}), 自动回退 WebSocket v3.5`)
         try {
           return await chatSparkWs(opts)
         } catch {
