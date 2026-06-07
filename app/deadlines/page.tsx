@@ -68,77 +68,61 @@ export default function Home() {
 
 
 
-  const filteredEvents = useMemo(() => {
+  const preSearchFiltered = useMemo(() => {
     let filtered = eventsWithSearchDates
 
-    // 分类过滤
     if (selectedCategory) {
       filtered = filtered.filter(flatEvent => flatEvent.item.category === selectedCategory)
     }
 
-    // 标签过滤
     if (selectedTags.length > 0) {
       filtered = filtered.filter(flatEvent =>
         selectedTags.some(tag => flatEvent.item.tags?.includes(tag))
       )
     }
 
-    // 地点过滤
     if (selectedLocations.length > 0) {
       filtered = filtered.filter(flatEvent =>
         selectedLocations.includes(flatEvent.event.place)
       )
     }
 
-    // 收藏过滤
     if (showOnlyFavorites) {
-      console.log('Filtering favorites:', { favorites, showOnlyFavorites, totalEvents: filtered.length })
-      filtered = filtered.filter(flatEvent => {
-        const eventId = `${flatEvent.event.id}`
-        const isFavorited = favorites.includes(eventId)
-        console.log(`Event ${eventId}: ${isFavorited ? 'favorited' : 'not favorited'}`)
-        return isFavorited
-      })
-      console.log('Filtered favorites result:', filtered.length)
+      filtered = filtered.filter(flatEvent => favorites.includes(`${flatEvent.event.id}`))
     }
 
-    // 搜索过滤
-    if (searchQuery.trim()) {
-      const fuse = new Fuse(filtered, {
-        keys: [
-          { name: 'item.title', weight: 0.4 },
-          { name: 'item.tags', weight: 0.3 },
-          { name: 'event.place', weight: 0.2 },
-          { name: 'searchableDate', weight: 0.1 },
-          { name: 'searchableMonth', weight: 0.1 },
-          { name: 'searchableYear', weight: 0.1 },
-        ],
-        threshold: 0.3,
-        includeScore: true,
-      })
+    return filtered
+  }, [eventsWithSearchDates, selectedCategory, selectedTags, selectedLocations, showOnlyFavorites, favorites])
 
-      const results = fuse.search(searchQuery)
-      filtered = results.map(result => result.item)
-    }
+  const fuse = useMemo(() => new Fuse(preSearchFiltered, {
+    keys: [
+      { name: 'item.title', weight: 0.4 },
+      { name: 'item.tags', weight: 0.3 },
+      { name: 'event.place', weight: 0.2 },
+      { name: 'searchableDate', weight: 0.1 },
+      { name: 'searchableMonth', weight: 0.1 },
+      { name: 'searchableYear', weight: 0.1 },
+    ],
+    threshold: 0.3,
+    includeScore: true,
+  }), [preSearchFiltered])
 
-    // 排序逻辑：未结束的活动按 timeRemaining 升序，已结束的活动放在最后
-    return filtered.sort((a, b) => {
+  const filteredEvents = useMemo(() => {
+    const filtered = searchQuery.trim()
+      ? fuse.search(searchQuery).map(result => result.item)
+      : preSearchFiltered
+
+    return [...filtered].sort((a, b) => {
       const aCompleted = a.timeRemaining < 0
       const bCompleted = b.timeRemaining < 0
-      
-      // 如果一个已结束，一个未结束，未结束的排在前面
       if (aCompleted && !bCompleted) return 1
       if (!aCompleted && bCompleted) return -1
-      
-      // 如果都未结束，按 timeRemaining 升序（即将到期的在前）
       if (!aCompleted && !bCompleted) {
         return a.timeRemaining - b.timeRemaining
       }
-      
-      // 如果都已结束，按 timeRemaining 降序（最近结束的在前）
       return b.timeRemaining - a.timeRemaining
     })
-  }, [eventsWithSearchDates, selectedCategory, selectedTags, selectedLocations, searchQuery, showOnlyFavorites, favorites])
+  }, [preSearchFiltered, searchQuery, fuse])
 
   if (loading) {
     return (
