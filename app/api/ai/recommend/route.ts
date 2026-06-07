@@ -1,8 +1,46 @@
-import { NextResponse } from "next/server"
+import { NextRequest, NextResponse } from "next/server"
 import { BITES_CATALOG, AccessibilityFilter, BitesRestaurant, filterBitesCatalog } from "@/lib/bitesCatalog"
 import { chatSpark, SparkMessage } from "@/lib/spark"
 
 export const runtime = "nodejs"
+
+const RATE_LIMIT_WINDOW_MS = 60_000
+const RATE_LIMIT_MAX = 5
+
+const ipHits = new Map<string, number[]>()
+
+function cleanupRateLimitMap() {
+  const now = Date.now()
+  for (const [ip, hits] of ipHits) {
+    const recent = hits.filter((t) => now - t < RATE_LIMIT_WINDOW_MS)
+    if (recent.length === 0) {
+      ipHits.delete(ip)
+    } else {
+      ipHits.set(ip, recent)
+    }
+  }
+}
+
+function getClientIP(req: NextRequest): string {
+  return req.headers.get("x-real-ip")
+    || req.headers.get("x-forwarded-for")?.split(",")[0]?.trim()
+    || "unknown"
+}
+
+function checkRateLimit(ip: string): boolean {
+  const now = Date.now()
+  const hits = ipHits.get(ip) || []
+  const recent = hits.filter((t) => now - t < RATE_LIMIT_WINDOW_MS)
+  if (recent.length >= RATE_LIMIT_MAX) {
+    ipHits.set(ip, recent)
+    return false
+  }
+  recent.push(now)
+  ipHits.set(ip, recent)
+  // 每次写入时触发一次清理，避免 Map 无限增长
+  if (Math.random() < 0.1) cleanupRateLimitMap()
+  return true
+}
 
 interface RecommendRequestBody {
   location?: string
@@ -59,7 +97,7 @@ function safeParseJson(input: string): any {
   }
 }
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   let location = ""
   let preferences = ""
   let accessibility: AccessibilityFilter = {}
@@ -71,6 +109,15 @@ export async function POST(req: Request) {
     accessibility = body?.accessibility || {}
   } catch {
     return NextResponse.json({ recommendations: filterBitesCatalog("", {}).slice(0, 5), source: "fallback_bad_request" })
+  }
+
+  const ip = getClientIP(req)
+  if (!checkRateLimit(ip)) {
+    const fallback = filterBitesCatalog(location, accessibility)
+    return NextResponse.json({
+      recommendations: fallback.slice(0, 5),
+      source: "fallback_rate_limited",
+    }, { status: 429 })
   }
 
   const filtersText = `听障友好: ${accessibility?.deafFriendly ? "是" : "否"}; 视障友好: ${accessibility?.blindFriendly ? "是" : "否"}`
